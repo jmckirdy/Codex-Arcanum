@@ -1,0 +1,17 @@
+# Codex Arcanum TODO List
+
+today's date: March 27th 2024
+
+- init a git repo
+- do some research on to use main, master, and setup multiple branches
+- continue to mark off files that are switched over
+- check showcodex.inc nl2br() function works with text data, fyi:more info when u mouse-over nl2br()
+- check that news data is from right db. (it's not)
+
+- CSS -set max-width of .center class box. it bleeds under the .news box
+- build glossary page and other .nav links
+
+## Done (Hopefully)
+
+- !get cookies working and test comments, and all pages B4 DOING ABOVE!
+- FIX, All comments are going into 2nd codex (Japanese one), they need to stick to the right codex.
