@@ -36,7 +36,7 @@
 
 <tr>
 
-<td><a href="index.php?content=newrecipe"><strong>Upload</strong></a></td>
+<td><a href="index.php?content=newcodex"><strong>Upload</strong></a></td>
 
 </tr>
 
