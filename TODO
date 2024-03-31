@@ -9,7 +9,11 @@ today's date: March 27th 2024
 - CSS -set max-width of .center class box. it bleeds under the .news box
 - build glossary page and other .nav links
 
--change .center box to only display a small amount of textfile data
+- change .center box to only display a small amount of textfile data
+
+- file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
+
+- includes news/main are conflicting, research best practice to use require or requOnce?
 
 ## Done (Hopefully)
 

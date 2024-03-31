@@ -4,6 +4,8 @@
 <br>
 <?php
 
+// require_once('library/login.php');
+// $con = login();
 $con = mysqli_connect("localhost", "test", "test", "recipes") or die('Could not connect to server');
 
 
