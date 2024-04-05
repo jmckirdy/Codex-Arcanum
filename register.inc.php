@@ -1,10 +1,9 @@
 <h3>Welcome to the Codex Arcanum!</h3>
 
-<p>This is the repository of the Mad Wizards programming notes. It has little meaning, save for him.</p>
+<p>A repository for your programming notes that when reviewed, updates the note, and tells you what and when you should review next.</p>
 
-(if you are him)
 <h3>Register to upload books, codices, spells, and cast enchantments.</h3>
-(otherwise, begone! or I shall curse thee.)<br><br>
+<br>
 <form action="index.php" method="post">
 
 <b>User Name:</b><br><input type="text" name="userid"><br>

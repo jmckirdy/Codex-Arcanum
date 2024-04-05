@@ -1,20 +1,39 @@
 <table width="100%" cellpadding="3">
 
 <tr>
-
 <td><h3>Welcome</h3></td>
+</tr>
 
+<tr>
+    <td><a href="index.php"><strong>Home</strong></a></td>  
+</tr>
+
+<tr>
+    <td><a href="index.php">Glossary & Intro</a></td>  
+</tr>
+
+<tr>
+    <td><a href="index.php">Books</a></td>  
+</tr>
+
+<tr>
+    <td><a href="index.php">Codices</a></td>  
+</tr>
+
+<tr>
+    <td><a href="index.php">Spells</a></td>  
+</tr>
+<tr>
+<td><hr size="1" noshade="noshade" /></td>
+</tr>
+
+<tr>
+<td><h3>Members</h3></td>
 </tr>
 
 <tr>
 
-<td><a href="index.php"><strong>Home</strong></a></td>
-
-</tr>
-
-<tr>
-
-<td><a href="index.php?content=login"><strong>Login</strong></a></td>
+<td><a href="index.php?content=login">Login</a></td>
 
 </tr>
 
@@ -24,20 +43,20 @@
 
 <tr>
 
-<td><a href="index.php?content=register"><strong>Register</strong></a></td>
+<td><a href="index.php?content=register">Register</a></td>
 
 </tr>
 
 <tr>
-
-<td><hr size="1" noshade="noshade" /></td>
-
-</tr>
-
-<tr>
-
 <td><a href="index.php?content=newcodex"><strong>Upload</strong></a></td>
+</tr>
 
+<tr>
+<td><hr size="1" noshade="noshade" /></td>
+</tr>
+
+<tr>
+<td><a href="index.php?content=logout">Server Status</a></td>
 </tr>
 
 <tr>
