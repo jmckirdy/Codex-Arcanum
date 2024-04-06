@@ -117,6 +117,11 @@ strong {
   width: 15%;
   min-height: 275px;
 }
+#news h3 {
+  color: pink;
+  background-color: #006699;
+  text-align: center;
+}
 
 #footer {
   clear: both;

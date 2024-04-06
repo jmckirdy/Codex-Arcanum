@@ -12,4 +12,10 @@
     top: 198px;
     width: 15%;  
     min-height: 275px;
+
+    h3 {
+        color: $hfontnav;
+        background-color: $bluelink;
+        text-align: center;
+    }
 }

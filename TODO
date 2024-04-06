@@ -17,8 +17,7 @@
 
 - on line:27 main.inc, make the $text vari only echo out short amount of text.
 - make css from main, center.scss work for generated pages.
-- ! strong text: light blue(highlight color)
-- ! Heading pink, blue background (like nav)
+
 <hr>
 
 - think/research implementation of breadcrumb at the top
@@ -31,3 +30,5 @@
 - added a repo testing git clone
 - check showcodex.inc nl2br() function works with text data, fyi:more info when u mouse-over nl2br()
 - build glossary page
+- ! strong text: light blue(highlight color)
+- ! Heading pink, blue background (like nav)
