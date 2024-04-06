@@ -1,7 +1,7 @@
 <form action="index.php" method="post">
 <!-- echo "<form action=\"index.php\" method=\"post\">\n"; -->
 
-<h2>Upload your stuff here</h2><br>
+<h2>Upload your books, codices, and spells</h2><br>
 
 Title:<input type="text" size="40" name="title"><br>
 
