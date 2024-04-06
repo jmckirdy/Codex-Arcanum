@@ -12,9 +12,12 @@ $poster = $row['poster'];
 $textfile = $row['textfile'];
 $textfile = nl2br($textfile);
 
+echo "<div class='flex-container'>";
+
 echo "<h2>$title</h2>\n";
 echo "by $poster <br><br>\n";
 echo "<h3>Contents of textfile:</h3>\n";
+echo "<div class='flex-item'>";
 echo "$textfile<br><br>\n";
 
 
@@ -51,4 +54,8 @@ if ($row[0] == 0)
        echo "<br><br>\n";
    }
 }
+
+
+echo "</div>";
+echo "</div>";
 ?>

@@ -28,7 +28,7 @@ a:hover {
 
 h1 {
   font: bold 38px Papyrus;
-  color: #334d55;
+  color: pink;
   margin: 0px;
   padding: 0px;
 }
@@ -130,7 +130,7 @@ strong {
 .flex-container {
   display: flex;
   flex-direction: column;
-  background-color: #213346;
+  background-color: #333533;
   color: #f3f6f8;
   width: 66.1%;
   padding: 25px 25px;

@@ -34,7 +34,9 @@ h1{
   // font-family: Verdana,Arial,sans-serif;
   // font-size: 120%;
   font: $hfont;
-  color: #334d55;
+  // color: #334d55;
+  color: $bright;
+
   margin: 0px;
   padding: 0px;
 }
@@ -43,6 +45,7 @@ h2{
   font-family: Arial,sans-serif;
   font-size: 120%;
   color: #334d55;
+  // color: $bright;
   margin: 0px;
   padding: 0px;
 }
@@ -51,6 +54,7 @@ h3{
   font-family: Arial,sans-serif;
   font-size: 110%;
   color: #334d55;
+  // color: $bright;
   margin: 0px;
   padding: 0px;
 }
@@ -59,13 +63,15 @@ h4{
   font-family: Arial,sans-serif;
   font-size: 100%;
   color: #334d55;
+  // color: $bright;
+
   margin: 0px;
   padding: 0px;
 }
   
 strong {
   // background-color: #FFFF99;
-  background-color: pink;
+  background-color: $bright;
   color: $bluelink;
 }
   
