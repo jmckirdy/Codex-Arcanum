@@ -64,7 +64,9 @@ h4{
 }
   
 strong {
-  background-color: #FFFF99;
+  // background-color: #FFFF99;
+  background-color: pink;
+  color: $bluelink;
 }
   
 @import 'header';

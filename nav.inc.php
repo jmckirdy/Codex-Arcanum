@@ -5,7 +5,7 @@
 </tr>
 
 <tr>
-    <td><a href="index.php"><strong>Home</strong></a></td>  
+    <td><a href="index.php">Home</a></td>  
 </tr>
 
 <tr>
