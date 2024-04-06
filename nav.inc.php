@@ -9,7 +9,7 @@
 </tr>
 
 <tr>
-    <td><a href="index.php">Glossary & Intro</a></td>  
+    <td><a href="index.php?content=glossary">Glossary & Intro</a></td>  
 </tr>
 
 <tr>
