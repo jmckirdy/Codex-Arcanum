@@ -16,7 +16,7 @@ echo "<div class='flex-container'>";
 
 echo "<h2>$title</h2>\n";
 echo "by $poster <br><br>\n";
-echo "<h3>Contents of textfile:</h3>\n";
+echo "<h3>Contents</h3>\n";
 echo "<div class='flex-item'>";
 echo "$textfile<br><br>\n";
 
@@ -37,7 +37,7 @@ if ($row[0] == 0)
    echo "<a href=\"index.php?content=newcomment&id=$id\">Add a comment</a>\n";
    echo "&nbsp;&nbsp;&nbsp;<a href=\"print.php?id=$id\" target=\"_blank\">Print textfile</a>\n";
    echo "<hr>\n";
-   echo "<h2>Enchantments:</h2>\n";
+   echo "<h2>Enchantments</h2>\n";
 
    $query = "SELECT date,poster,comment from comments where codexid = $id order by commentid desc";
 

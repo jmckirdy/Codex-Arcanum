@@ -3,7 +3,7 @@
     today's date: March 27th 2024
 
 - do some research on to use main, master, and setup multiple branches
-- continue to mark off files that are switched over
+- mark off ALL files that are switched over
 - check that news data is from right db. (it's not)
 - CSS -set max-width of .center class box. it bleeds under the .news box
 - build other .nav links
@@ -17,6 +17,12 @@
 
 - on line:27 main.inc, make the $text vari only echo out short amount of text.
 - make css from main, center.scss work for generated pages.
+- ! strong text: light blue(highlight color)
+- ! Heading pink, blue background (like nav)
+<hr>
+
+- think/research implementation of breadcrumb at the top
+- add next/ back like museum
 
 ## Done
 

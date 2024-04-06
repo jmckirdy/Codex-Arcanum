@@ -1,7 +1,7 @@
 <div class='flex-container'>
-   <h2 align="center" style="color: #f3f6f8;">Codex Arcanum <i class="fa-solid fa-hat-wizard"></i></h2>
+   <h2>Codex Arcanum <i class="fa-solid fa-hat-wizard"></i></h2>
 
-   <p><i class="fa-solid fa-bowl-rice fa-lg" style="color: #FFD43B;"></i> Post your Large, Finished pfd/doc <strong>Programming Notes</strong><br><br>
+   <p></i>Post full Books (pfd/docx), <strong>Programming Notes</strong>, and scripts.<br><br>
    <div class="flex-item">
       <?php
       include("library/login.php");

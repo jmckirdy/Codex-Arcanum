@@ -24,14 +24,20 @@
     //   width: 30%;
     // }
   
-    #flex-item {
-      margin: 25px, 25px 25px, 25px;
-      // text-decoration: underline;
-      width: 30%;
-      //   height: 200px;
-      border: 1px solid; 
-      padding-top: 2px;
-      padding-bottom: 2px;
-      // color: $dark;
-    }
+  #flex-item {
+    margin: 25px, 25px 25px, 25px;
+    // text-decoration: underline;
+    width: 30%;
+    //   height: 200px;
+    border: 1px solid; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    // color: $dark;
+  }
+  h2,h3,h4 {
+    color: $light;
+    background-color: $dark;
+    font: $hfont1;
+    text-align: center;
+  }
 }

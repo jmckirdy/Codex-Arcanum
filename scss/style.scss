@@ -4,6 +4,7 @@ body{
   // font-family: Arial,sans-serif;
   // font-size: 80%; 
   font: $fontstack;
+  // font: $fontstack1;
   color: #333333; 
   line-height: 1.166;  
   margin: 0px; 
@@ -35,17 +36,21 @@ h1{
   // font-size: 120%;
   font: $hfont;
   // color: #334d55;
-  color: $bright;
+  color: $light;
 
   margin: 0px;
   padding: 0px;
 }
   
 h2{
-  font-family: Arial,sans-serif;
+  // font-family: Arial,sans-serif;
+  font-family: $hfont;
+
   font-size: 120%;
-  color: #334d55;
+  // color: #334d55;
   // color: $bright;
+  color: $light;
+  text-align: center;
   margin: 0px;
   padding: 0px;
 }
@@ -53,8 +58,9 @@ h2{
 h3{
   font-family: Arial,sans-serif;
   font-size: 110%;
-  color: #334d55;
-  // color: $bright;
+  
+  // color: #334d55;
+  color: $light;
   margin: 0px;
   padding: 0px;
 }
@@ -62,8 +68,9 @@ h3{
 h4{
   font-family: Arial,sans-serif;
   font-size: 100%;
+
   color: #334d55;
-  // color: $bright;
+  // color: $light;
 
   margin: 0px;
   padding: 0px;
@@ -71,8 +78,8 @@ h4{
   
 strong {
   // background-color: #FFFF99;
-  background-color: $bright;
-  color: $bluelink;
+  background-color: #2e64c9;
+  color: $light;
 }
   
 @import 'header';

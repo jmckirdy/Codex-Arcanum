@@ -28,15 +28,16 @@ a:hover {
 
 h1 {
   font: bold 38px Papyrus;
-  color: pink;
+  color: #f3f6f8;
   margin: 0px;
   padding: 0px;
 }
 
 h2 {
-  font-family: Arial, sans-serif;
+  font-family: bold 38px Papyrus;
   font-size: 120%;
-  color: #334d55;
+  color: #f3f6f8;
+  text-align: center;
   margin: 0px;
   padding: 0px;
 }
@@ -44,7 +45,7 @@ h2 {
 h3 {
   font-family: Arial, sans-serif;
   font-size: 110%;
-  color: #334d55;
+  color: #f3f6f8;
   margin: 0px;
   padding: 0px;
 }
@@ -58,8 +59,8 @@ h4 {
 }
 
 strong {
-  background-color: pink;
-  color: #006699;
+  background-color: #2e64c9;
+  color: #f3f6f8;
 }
 
 #header {
@@ -141,6 +142,12 @@ strong {
   border: 1px solid;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+.flex-container h2, .flex-container h3, .flex-container h4 {
+  color: #f3f6f8;
+  background-color: #213346;
+  font: bold 28px Papyrus;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
