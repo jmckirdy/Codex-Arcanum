@@ -1,23 +1,27 @@
 # Codex Arcanum TODO List
 
-today's date: March 27th 2024
+    today's date: March 27th 2024
 
 - do some research on to use main, master, and setup multiple branches
 - continue to mark off files that are switched over
 - check that news data is from right db. (it's not)
-
 - CSS -set max-width of .center class box. it bleeds under the .news box
-- build glossary page and other .nav links
-
+- build other .nav links
 - change .center box to only display a small amount of textfile data
-
 - file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
-
 - includes news/main are conflicting, research best practice to use require or requOnce?
 
-## Done (Hopefully)
+## New
+
+    today's date: April 06th 2024
+
+- on line:27 main.inc, make the $text vari only echo out short amount of text.
+- make css from main, center.scss work for generated pages.
+
+## Done
 
 - !get cookies working and test comments, and all pages B4 DOING ABOVE!
 - FIX, All comments are going into 2nd codex (Japanese one), they need to stick to the right codex.
 - added a repo testing git clone
 - check showcodex.inc nl2br() function works with text data, fyi:more info when u mouse-over nl2br()
+- build glossary page
