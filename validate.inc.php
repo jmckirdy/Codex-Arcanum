@@ -21,7 +21,7 @@ if (mysqli_num_rows($result) == 0) {
    // TESTING    
 //    echo var_dump($_SESSION);
    
-   echo "<p>Your user account has been validated, you can now upload <a href=\"#\">books/codices/spells</a> and cast enchantments.</p>\n";
+   echo "<p>Your user account has been validated, you can now upload <a href=\"index.php?content=glossary\">books/codices/spells</a> and cast enchantments.</p>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
 }
 ?>
