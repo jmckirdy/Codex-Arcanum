@@ -29,16 +29,16 @@ $result = mysqli_query($con, $query);
 $row=mysqli_fetch_array($result);
 if ($row[0] == 0)
 {
-   echo "No comments posted yet.&nbsp;&nbsp;\n";
-   echo "<a href=\"index.php?content=newcomment&id=$id\">Add a comment</a>\n";
-   echo "&nbsp;&nbsp;&nbsp;<a href=\"print.php?id=$id\" target=\"_blank\">Print textfile</a>\n";
+   echo "No enchantments posted yet.&nbsp;&nbsp;\n";
+   echo "<a class=\"center-link\" href=\"index.php?content=newcomment&id=$id\">Add an enchantment</a>\n";
+   echo "&nbsp;&nbsp;&nbsp;<a class=\"center-link\" href=\"print.php?id=$id\" target=\"_blank\">Print textfile</a>\n";
    echo "<hr>\n";
 } else
 {
    echo $row[0] . "\n";
-   echo "&nbsp;comments posted.&nbsp;&nbsp;\n";
-   echo "<a href=\"index.php?content=newcomment&id=$id\">Add a comment</a>\n";
-   echo "&nbsp;&nbsp;&nbsp;<a href=\"print.php?id=$id\" target=\"_blank\">Print textfile</a>\n";
+   echo "&nbsp;enchantments posted.&nbsp;&nbsp;\n";
+   echo "<a class=\"center-link\" href=\"index.php?content=newcomment&id=$id\">Add an enchantment</a>\n";
+   echo "&nbsp;&nbsp;&nbsp;<a class=\"center-link\" href=\"print.php?id=$id\" target=\"_blank\">Print textfile</a>\n";
    echo "<hr>\n";
    echo "<h2>Enchantments</h2>\n";
 

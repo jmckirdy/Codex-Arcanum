@@ -22,6 +22,8 @@
 
 - check adduser, addcomment, addcodex for any leftover ,h2 that should be p. color styling too.
 - check print.php is switched over
+- make color rgb changer function on:hover over blue links. scss func?
+- sticky the footer to bottom
 
 ## Done
 

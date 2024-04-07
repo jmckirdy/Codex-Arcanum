@@ -11,9 +11,16 @@ session_start();
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
     <style>
-    .flex-container .center-link {
+    .flex-container .center-title-link {
         font-size: larger;
-        color: bisque;
+        /* color: bisque; want bisque but there many error handling links in center too */
+        color: $bluelink;
+    }
+
+    .flex-container .center-link {
+        font-size: normal;
+        /* color: bisque; */
+        color: $bluelink;
     }
     </style>
 
