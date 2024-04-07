@@ -26,7 +26,7 @@
             echo "<a href=\"index.php?content=showcodex&id=$codexid\">$title</a> Last Reviewed by: $poster<br>\n";
             
             echo "<div class='codex-text'>";
-            echo "$textfile<br>";
+            echo substr($textfile, 0, 100) . " ...<br>";
             echo "</div>";
 
             echo "<hr><br>\n";

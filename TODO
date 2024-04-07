@@ -15,8 +15,6 @@
 
     today's date: April 06th 2024
 
-- on line:27 main.inc, make the $text vari only echo out short amount of text.
-
 <hr>
 
 - think/research implementation of breadcrumb at the top
@@ -36,3 +34,4 @@
 - ! Heading pink, blue background (like nav)
 - build other .nav links
 - make css from main, center.scss work for generated pages.
+- on line:27 main.inc, make the $text vari only echo out short amount of text. (substr())
