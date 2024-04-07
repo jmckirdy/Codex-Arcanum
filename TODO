@@ -17,6 +17,7 @@
 - think/research implementation of breadcrumb at the top
 - add next/ back like museum
 - make color rgb changer function on:hover over blue links. scss func?
+- change the link 'Server Status', make it NOT logout functionality.
 
 ## Done
 
