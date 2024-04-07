@@ -3,11 +3,8 @@
     today's date: March 27th 2024
 
 - do some research on to use main, master, and setup multiple branches
-- mark off ALL files that are switched over
 - check that news data is from right db. (it's not)
 - CSS -set max-width of .center class box. it bleeds under the .news box
-
-- change .center box to only display a small amount of textfile data
 - file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
 - includes news/main are conflicting, research best practice to use require or requOnce?
 
@@ -19,11 +16,7 @@
 
 - think/research implementation of breadcrumb at the top
 - add next/ back like museum
-
-- check adduser, addcomment, addcodex for any leftover ,h2 that should be p. color styling too.
-- check print.php is switched over
 - make color rgb changer function on:hover over blue links. scss func?
-- sticky the footer to bottom
 
 ## Done
 
@@ -37,3 +30,9 @@
 - build other .nav links
 - make css from main, center.scss work for generated pages.
 - on line:27 main.inc, make the $text vari only echo out short amount of text. (substr())
+- check print.php is switched over
+- mark off ALL files that are switched over
+- change .center box to only display a small amount of textfile data
+- check adduser, addcomment, addcodex for any leftover ,h2 that should be p. color styling too.
+- sticky the footer to bottom
+- file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php

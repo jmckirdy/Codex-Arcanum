@@ -10,7 +10,15 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
+    <!-------- NOTES TO DEVELOPER ---------
+    newcodex.inc.php is upload page, addcodex.inc.php is the logic
+    there are commented var_dumps for testing throughout app
+     -->
+     
     <style>
+    /* 
+    internal styles are last/2nd last option for CSS as most is external in scss files.
+    */
     .flex-container .center-title-link {
         font-size: larger;
         /* color: bisque; want bisque but there many error handling links in center too */
@@ -23,6 +31,7 @@ session_start();
         color: $bluelink;
     }
     </style>
+
 
     <title>Codex Arcanum</title>
 
