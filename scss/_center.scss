@@ -10,6 +10,7 @@
     //   color: #f1f1f1;
     width: 66.1%;
     padding: 25px 25px;
+    border: 1px solid $center-border;
   
 
   #flex-item {
@@ -25,7 +26,10 @@
 
   h2,h3,h4 {
     color: $light;
-    background-color: $dark;
+    // color: $hfontnav;
+    // background-color: $dark;
+    background-color: $center-border;
+
     font: $hfont1;
     text-align: center;
   }

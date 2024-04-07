@@ -116,7 +116,7 @@ strong {
   min-height: 275px;
 }
 #nav h3 {
-  color: pink;
+  color: bisque;
   background-color: #006699;
   text-align: center;
 }
@@ -134,7 +134,7 @@ strong {
   min-height: 275px;
 }
 #news h3 {
-  color: pink;
+  color: bisque;
   background-color: #006699;
   text-align: center;
 }
@@ -146,6 +146,7 @@ strong {
   color: #f3f6f8;
   width: 66.1%;
   padding: 25px 25px;
+  border: 1px solid #272927;
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
@@ -156,7 +157,7 @@ strong {
 }
 .flex-container h2, .flex-container h3, .flex-container h4 {
   color: #f3f6f8;
-  background-color: #213346;
+  background-color: #272927;
   font: bold 28px Papyrus;
   text-align: center;
 }

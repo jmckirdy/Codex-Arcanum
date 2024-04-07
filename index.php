@@ -10,6 +10,13 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
+    <style>
+    .flex-container .center-link {
+        font-size: larger;
+        color: bisque;
+    }
+    </style>
+
     <title>Codex Arcanum</title>
 
 
