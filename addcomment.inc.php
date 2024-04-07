@@ -1,3 +1,4 @@
+<div class='flex-container'>
 <?php
 // commentid, or codexid?
 // $id = $_POST['id'];
@@ -30,10 +31,11 @@ $query = "INSERT INTO comments (poster, date, codexid, comment) " .
 $result = mysqli_query($con, $query);
 
 if ($result) {
-   echo "<h2>Enchantment Cast!</h2>\n";
+   echo "<p>Enchantment Cast!</p>\n";
 } else {
    echo var_dump($con, $query) . "<br>\n";
-   echo "<h2>Sorry, there was a problem casting your enchantment</h2>\n";
+   echo "<p>Sorry, there was a problem casting your enchantment</p>\n";
    echo "<a href=\"index.php?content=showrcodex&id=$codexid\">Return to codex</a>\n";
 }
 ?>
+</div>

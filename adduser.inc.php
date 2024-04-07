@@ -1,5 +1,5 @@
+<div class="flex-container">
 <?php
-
 include("library/login.php");
 $con = login();
 
@@ -87,6 +87,5 @@ if ($baduser != 1) {
       echo "<a href=\"index.php\">Return to Home</a>\n";
    }
 }
-
 ?>
-
+</div>

@@ -22,6 +22,9 @@
 - think/research implementation of breadcrumb at the top
 - add next/ back like museum
 
+- check adduser, addcomment, addcodex for any leftover ,h2 that should be p. color styling too.
+- check print.php is switched over
+
 ## Done
 
 - !get cookies working and test comments, and all pages B4 DOING ABOVE!

@@ -11,7 +11,7 @@ $textfile = addslashes(htmlspecialchars($_POST['textfile']));
 
 if (trim($poster) == "")
 {
-    echo "<h2>Sorry, you must be logged in to upload</h2>\n";
+    echo "<p>Sorry, you must be logged in to upload</p>\n";
 }else
 {
     include('library/login.php');
@@ -28,9 +28,9 @@ if (trim($poster) == "")
     $result = mysqli_query($con, $query) or die(mysqli_error($con));
 
     if ($result)
-       echo "<h2>Upload Successful</h2>\n";
+       echo "<p>Upload Successful</p>\n";
     else
-       echo "<h2>Sorry, there was a problem with your upload</h2>\n";
+       echo "<p>Sorry, there was a problem with your upload</p>\n";
 }
 
  
