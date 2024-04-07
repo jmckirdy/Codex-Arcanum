@@ -1,7 +1,7 @@
 <div class='flex-container'>
     <!-- <div class="flex-item"> -->
 
-    <h3>Welcome to the Codex Arcanum!</h3>
+    <h3>Welcome to Codex Arcanum!</h3>
 
     <p>A repository for your programming notes that when reviewed, updates the note, and tells you what and when you should review next.</p>
 
@@ -27,7 +27,7 @@
 
     <font size="2">Privacy Policy: we do not share your information with others</font><br><br>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" class="button">
 
     <input type="hidden" name="content" value="adduser">
 

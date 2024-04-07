@@ -5,7 +5,7 @@ $con = login();
 
 
 if (!$con) {
-   echo "<h2>Sorry, we cannot process your request at this time, please try again later</h2>\n";
+   echo "<p>Sorry, we cannot process your request at this time, please try again later</p>\n";
    echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
    exit;
@@ -21,7 +21,7 @@ $baduser = 0;
 
 // Check if userid was entered
 if (trim($userid) == '') {
-   echo "<h2>Sorry, you must enter a user name.</h2><br>\n";
+   echo "<p>Sorry, you must enter a user name.</p><br>\n";
    echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
    $baduser = 1;
@@ -30,7 +30,7 @@ if (trim($userid) == '') {
 
 //Check if password was entered
 if (trim($password) == '') {
-   echo "<h2>Sorry, you must enter a password.</h2><br>\n";
+   echo "<p>Sorry, you must enter a password.</p><br>\n";
    echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
    $baduser = 1;
@@ -39,7 +39,7 @@ if (trim($password) == '') {
 
 //Check if password and confirm password match
 if ($password != $password2) {
-   echo "<h2>Sorry, the passwords you entered did not match.</h2><br>\n";
+   echo "<p>Sorry, the passwords you entered did not match.</p><br>\n";
    echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
    $baduser = 1;
@@ -51,7 +51,7 @@ $query = "SELECT userid from users where userid = '$userid'";
 $result = mysqli_query($con, $query);
 $row = mysqli_fetch_array($result);
 if ($row['userid'] == $userid) {
-   echo "<h2>Sorry, that user name is already taken.</h2><br>\n";
+   echo "<p>Sorry, that user name is already taken.</p><br>\n";
    echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
    $baduser = 1;
@@ -74,15 +74,15 @@ if ($baduser != 1) {
       $_SESSION['valid_codex_user'] = $userid;
 
       // TESTING
-      echo var_dump($_SESSION);
-      echo var_dump(session_get_cookie_params());
+      // echo var_dump($_SESSION);
+      // echo var_dump(session_get_cookie_params());
 
-      echo "<h2>Your registration request has been approved and you are now logged in!</h2>\n";
+      echo "<p>Your registration request has been approved and you are now logged in!</p>\n";
       echo "<a href=\"index.php\">Return to Home</a>\n";
       exit;
    } else {
       // echo var_dump($con);
-      echo "<h2>Sorry, there was a problem processing your login request</h2><br>\n";
+      echo "<p>Sorry, there was a problem processing your login request</p><br>\n";
       echo "<a href=\"index.php?content=register\">Try again</a><br>\n";
       echo "<a href=\"index.php\">Return to Home</a>\n";
    }

@@ -16,10 +16,13 @@ echo "<div class='flex-container'>";
 
 echo "<h2>$title</h2>\n";
 echo "by $poster <br><br>\n";
-echo "<h3>Contents</h3>\n";
+echo "<h3>Contents</h3><br>\n";
 echo "<div class='flex-item'>";
-echo "$textfile<br><br>\n";
 
+// Giant textfile from db, wrapped in codex-text class for font styling
+echo "<div class='codex-text'>";
+echo "$textfile<br><br>\n";
+echo "</div>";
 
 $query = "SELECT count(commentid) from comments where codexid = $id";
 $result = mysqli_query($con, $query);

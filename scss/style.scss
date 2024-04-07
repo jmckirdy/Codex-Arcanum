@@ -1,4 +1,5 @@
 @import 'config';
+@import 'button';
 
 body{
   // font-family: Arial,sans-serif;
@@ -77,13 +78,16 @@ h4{
 }
   
 strong {
-  // background-color: #FFFF99;
-  background-color: #2e64c9;
-  color: $light;
+  background-color: #FFFF99;
+  // background-color: #2e64c9;
+  color: $bluelink;
+  // color: $light;
 }
   
 @import 'header';
 @import 'nav';
 @import 'news';
-@import 'footer';
 @import 'center';
+
+
+@import 'footer';

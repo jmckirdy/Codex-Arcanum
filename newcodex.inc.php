@@ -1,25 +1,21 @@
-<form action="index.php" method="post">
-<!-- echo "<form action=\"index.php\" method=\"post\">\n"; -->
+<div class='flex-container'>
+    <form action="index.php" method="post">
+        <!-- echo "<form action=\"index.php\" method=\"post\">\n"; -->
 
-<h2>Upload your books, codices, and spells</h2><br>
+        <p>Upload your books, codices, and spells</p><br>
 
-Title:<input type="text" size="40" name="title"><br>
+        Title:&nbsp;&nbsp;<input type="text" size="40" name="title"><br>
 
-Poster:<input type="text" size="40" name="poster"><br>
+        Poster:<input type="text" size="40" name="poster"><br>
 
-<!-- Short Description:<br>
-<textarea rows="5" cols="50" name="shortdesc"></textarea><br> -->
+        <p>Textfile</p>
 
-<h3>Textfile</h3>
+        <textarea rows="10" cols="50" name="textfile"></textarea><br>
 
-<textarea rows="10" cols="50" name="textfile"></textarea><br>
+        <!-- <div class="button"> -->
+        <input type="submit" value="Submit" class="button">
+        <!-- </div> -->
 
-<!-- <h3>Directions</h3>
-<textarea rows="10" cols="50" name="directions"></textarea><br> -->
-
-<input type="submit" value="Submit">
-
-<input type="hidden" name="content" value="addcodex">
-
-</form>
-
+        <input type="hidden" name="content" value="addcodex">
+    </form>
+</div>

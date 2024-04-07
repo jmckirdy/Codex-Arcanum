@@ -1,7 +1,7 @@
 <div class='flex-container'>
    <h2>Codex Arcanum <i class="fa-solid fa-hat-wizard"></i></h2>
 
-   <p></i>Post full Books (pfd/docx), <strong>Programming Notes</strong>, and scripts.<br><br>
+   <p>Post full books(pfd/docx), programming notes, and scripts.<br><br>
    <div class="flex-item">
       <?php
       include("library/login.php");
@@ -24,7 +24,11 @@
             $textfile = $row['textfile'];
             //  the url ending below is the link content=pageTarget.
             echo "<a href=\"index.php?content=showcodex&id=$codexid\">$title</a> Last Reviewed by: $poster<br>\n";
+            
+            echo "<div class='codex-text'>";
             echo "$textfile<br>";
+            echo "</div>";
+
             echo "<hr><br>\n";
          }
       }

@@ -6,7 +6,7 @@
 - mark off ALL files that are switched over
 - check that news data is from right db. (it's not)
 - CSS -set max-width of .center class box. it bleeds under the .news box
-- build other .nav links
+
 - change .center box to only display a small amount of textfile data
 - file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
 - includes news/main are conflicting, research best practice to use require or requOnce?
@@ -16,7 +16,6 @@
     today's date: April 06th 2024
 
 - on line:27 main.inc, make the $text vari only echo out short amount of text.
-- make css from main, center.scss work for generated pages.
 
 <hr>
 
@@ -32,3 +31,5 @@
 - build glossary page
 - ! strong text: light blue(highlight color)
 - ! Heading pink, blue background (like nav)
+- build other .nav links
+- make css from main, center.scss work for generated pages.
