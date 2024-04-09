@@ -7,6 +7,8 @@ session_start();
 
 <head>
     <script src="https://kit.fontawesome.com/6aa583ebf3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
@@ -14,7 +16,7 @@ session_start();
     newcodex.inc.php is upload page, addcodex.inc.php is the logic
     there are commented var_dumps for testing throughout app
      -->
-     
+
     <style>
     /* 
     internal styles are last/2nd last option for CSS as most is external in scss files.

@@ -16,7 +16,7 @@ echo "<div class='flex-container'>";
 
 echo "<h2>$title</h2>\n";
 echo "by $poster <br><br>\n";
-echo "<h3>Contents</h3><br>\n";
+echo "<h3>Content</h3><br>\n";
 echo "<div class='flex-item'>";
 
 // Giant textfile from db, wrapped in codex-text class for font styling

@@ -1,23 +1,27 @@
 # Codex Arcanum TODO List
 
-    today's date: March 27th 2024
+    added on date: March 27th 2024
 
-- do some research on to use main, master, and setup multiple branches
-- check that news data is from right db. (it's not)
-- CSS -set max-width of .center class box. it bleeds under the .news box
-- file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
-- includes news/main are conflicting, research best practice to use require or requOnce?
+- !! do some research on to use main, master, and setup multiple branches
+- ! check that news data is from right db. (it's not)
+- ! CSS -set max-width of .center class box. it bleeds under the .news box
+- ! file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
+- ! includes news/main are conflicting, research best practice to use require or requOnce?
 
 ## New
 
-    today's date: April 06th 2024
+    added on date: April 06th 2024
 
 <hr>
 
-- think/research implementation of breadcrumb at the top
-- add next/ back like museum
+- !! think/research implementation of breadcrumb at the top
+- !! add next/ back like museum
 - make color rgb changer function on:hover over blue links. scss func?
-- change the link 'Server Status', make it NOT logout functionality.
+- ! change the link 'Server Status', make it NOT logout functionality.
+- ! Fix /link other nav links
+- ! clean up 'Glossary' page
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Done
 

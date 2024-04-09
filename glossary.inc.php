@@ -1,25 +1,36 @@
 <div class='flex-container'>
     <h3>Intro</h3>
     <div class="flex-item">
-        <p><em>Codex Arcanum</em> is a primarily for uploading and reviewing programming notes and scripts, with a magic theme. It also has the ability to upload books.<br><br>
-        Because the topic of programming is so vast, the Mad Wizard is determined to focus (mostly) upon programming for the web. Here's a array of what that may include:</p>
+        <div class="glossary-text">
+            <p><em>Codex Arcanum</em> is a tool for uploading and reviewing programming notes and scripts, with a magic theme. It also has the ability to upload books.<br><br>
+            Because the topic of programming is so vast, the developer (aka: Mad Wizard) has determined to focus (mostly) on programming for the web. Here's what that may include:</p>
+        </div>
 
-        <code>[PHP, JavaScript, Python, C++, C, Linux, Bash, DSA, Web Design, Redirects, Hosting, Infastructure, DevOps, ...]</code>
+        <pre class="prettyprint"><code>[PHP, JavaScript, Python, C++, C, Linux, Bash, DSA, Web Design, Redirects, Hosting, Infastructure, DevOps, ...]</code></pre>
+        
+        
+        <!-- <pre class="prettyprint">class Voila {
+public:
+  // Voila
+  static const string VOILA = "Voila";
+
+  // will not interfere with embedded <a href="#voila2">tags</a>.
+}</pre> -->
+
         <br><br>
 
         <h3>Glossary</h3>
 
         <ul>
-            <li><b>Wizard/Mage/Sorcerer:</b> Synonymous with programmer.</li>
-            <li><b>Codex(Codices):</b> A Mage's final draft of notes (doc/pdf) uploaded to the site. Should be 2-15 pages long. If mage has more notes on a given topic they shall be split up into Part I, Part II, etc.</li>
-            <li><b>Books:</b> Same as in English, with the caveat that the book should pertain to programming, and perhaps fantasy or medieval history. Should be 80-800 pages long.</li>
-            <li><b>Spell:</b> A stored script written by the wizard or another programmer.</li>
-            <li>Enchantment: A key-takeaway cast by the wizard upon reviewing a codex or book.</li>
-            <li>Cast: Synonymous commenting or posting an enchantment.</li>
-            <li>Category: Codices fall under one category or topic.</li>
-            <li>Tags: Tags fall under one codice or book. Aim to include 3-12 tags with every upload.</li>
+            <li<span class="glossary-term">Wizard/Mage/Sorcerer:</span><span class="glossary-text"> Synonymous with programmer.</span></li><br><br>
+            <li><span class="glossary-term">Codex(Codices):</span><span class="glossary-text"> A Mage's final draft of notes (doc/pdf). It should be 2-15 pages long. If mage has more notes on a given topic they shall be split up into Part I, Part II, etc.</span></li><br>
+            <li><span class="glossary-term">Books:</span><span class="glossary-text"> Same as in English, with the caveat that the book should pertain to programming, or fit the magic theme. Should be 80-800 pages long.</span></li><br>
+            <li><span class="glossary-term">Spell:</span><span class="glossary-text"> A stored script written by the wizard or another programmer.</span></li><br>
+            <li><span class="glossary-term">Enchantment:</span><span class="glossary-text"> A key-takeaway cast by the wizard upon reviewing a codex or book.</span></li><br>
+            <li><span class="glossary-term">Cast:</span><span class="glossary-text"> Synonymous commenting or posting an enchantment.</span></li><br>
+            <li><span class="glossary-term">Category:</span><span class="glossary-text"> Codices fall under one category or topic.</span></li><br>
+            <li><span class="glossary-term">Tags:</span><span class="glossary-text"> Tags fall under one codice or book. Aim to include 3-12 tags with every upload.</span></li><br>
         </ul>
-        (FYI: cold/warm/hot icons indicate how fresh the knowledge is in your mind.)
-        <br>
+
     </div>
 </div>

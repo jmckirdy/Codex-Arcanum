@@ -1,0 +1,15 @@
+.glossary-term {
+    color: $hfontnav;
+    font: $fontstack1;
+    list-style: none inside; /* Remove default bullets */
+}
+
+.glossary-text {
+    font: $fontstack1;
+    color: $light;
+}
+
+// .main-list {
+//     color: rgb(189, 216, 203);
+//     list-style: none inside; /* Remove default bullets */
+// }
