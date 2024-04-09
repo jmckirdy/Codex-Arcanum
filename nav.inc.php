@@ -9,19 +9,19 @@
 </tr>
 
 <tr>
-    <td><a href="index.php?content=glossary">Glossary & Intro</a></td>  
+    <td><a href="index.php?content=glossary">Intro & Glossary</a></td>  
 </tr>
 
 <tr>
-    <td><a href="index.php">Books</a></td>  
+    <td><a href="index.php?content=books">Books</a></td>  
 </tr>
 
 <tr>
-    <td><a href="index.php">Codices</a></td>  
+    <td><a href="index.php?content=codices">Codices</a></td>  
 </tr>
 
 <tr>
-    <td><a href="index.php">Spells</a></td>  
+    <td><a href="index.php?content=spells">Spells</a></td>  
 </tr>
 <tr>
 <td><hr size="1" noshade="noshade" /></td>
@@ -56,7 +56,7 @@
 </tr>
 
 <tr>
-<td><a href="index.php?content=logout">Server Status</a></td>
+<td><a href="index.php?content=serverstatus">Server Status</a></td>
 </tr>
 
 <tr>

@@ -6,21 +6,20 @@ session_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+     
+    <!-------- NOTES TO DEVELOPER ---------
+    newcodex.inc.php is upload page, addcodex.inc.php is the logic
+    there are commented var_dumps for testing throughout app
+     -->
+
     <script src="https://kit.fontawesome.com/6aa583ebf3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
-    <!-------- NOTES TO DEVELOPER ---------
-    newcodex.inc.php is upload page, addcodex.inc.php is the logic
-    there are commented var_dumps for testing throughout app
-     -->
-
     <style>
-    /* 
-    internal styles are last/2nd last option for CSS as most is external in scss files.
-    */
+    /* inline, internal styles are the last option for CSS as most is external in scss files. */
     .flex-container .center-title-link {
         font-size: larger;
         /* color: bisque; want bisque but there many error handling links in center too */

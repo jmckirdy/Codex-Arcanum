@@ -19,7 +19,6 @@
 - make color rgb changer function on:hover over blue links. scss func?
 - ! change the link 'Server Status', make it NOT logout functionality.
 - ! Fix /link other nav links
-- ! clean up 'Glossary' page
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -41,3 +40,5 @@
 - check adduser, addcomment, addcodex for any leftover ,h2 that should be p. color styling too.
 - sticky the footer to bottom
 - file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
+- ! clean up 'Glossary' page
+- Code snippets now have a light and dark theme css
