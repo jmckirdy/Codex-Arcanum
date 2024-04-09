@@ -18,7 +18,8 @@
 - !! add next/ back like museum
 - make color rgb changer function on:hover over blue links. scss func?
 - ! change the link 'Server Status', make it NOT logout functionality.
-- ! Fix /link other nav links
+- ! Fix Nav links by SELECT \* from books,codices,spells.
+- ! finish file upload button
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 

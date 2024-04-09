@@ -1,7 +1,7 @@
 <div class='flex-container'>
    <h2>Codex Arcanum <i class="fa-solid fa-hat-wizard"></i></h2>
 
-   <p>Post full books(pfd/docx), programming notes, and scripts.<br><br>
+   <p>The Latest Books, Codices, and Spells<br><br>
    <div class="flex-item">
       <?php
       include("library/login.php");
