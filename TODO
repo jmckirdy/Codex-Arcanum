@@ -21,7 +21,14 @@
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+
+- organize P.R by bug: feat: or chore:
+- bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way.
+
+<br>
+
+<br><br><br><br><br><br><br><br><br><br>
 
 ## Done
 
