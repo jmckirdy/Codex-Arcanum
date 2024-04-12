@@ -1,24 +1,35 @@
+<style>
+    #hits {
+        color: red;
+        background-color: black;
+    }
+</style>
+
 <h3>Tavern Gossip <i class="fa-solid fa-hat-wizard"></i></h3>
-<br>Widgets, Hit-counters, Music, & whatever else<br>
+
 <br>Inspiration: Codex's Jewel bound codex pic
+<hr>
+
 <br>
+<h3>Hit-counter</h3>
+<br>This site has <span id="hits">12354</span> Hits!
+<br><br><hr>
+
+<h3>Weekly Show</h3>
 <?php
-
-// require_once('library/login.php');
-// $con = login();
-$con = mysqli_connect("localhost", "test", "test", "recipes") or die('Could not connect to server');
-
-
-$query = "SELECT date,title,article from news order by date desc limit 0,2";
-$result = mysqli_query($con, $query) or die(mysqli_error($con));
+$variable = 'Mythic Quest';
+echo "<br>$variable";
+?><br>
+<a href="https://www.imdb.com/title/tt8879940/">imdb link</a>
 
 
-while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
-{
-    $date = $row['date'];
-    $title = $row['title'];
-    $article = $row['article'];
-    echo "<br>$date - <b>$title</b><br>$article<br><br>";
-}
 
-?>
+<hr>
+<script src="library/startMusic.js"></script>
+<audio id="startMusic" src="assets/Hero_Quest_Piano.mp3"></audio> 
+
+<!-- ⬇️  ⬇️ -->
+<h3>Weeking Music</h3>
+<br>
+<font size="14" onclick="playMusic()">▶️</font>
+<hr>
