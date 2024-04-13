@@ -1,5 +1,5 @@
 <div class='flex-container'><br>
-<p>To upload books, codices, spells, and cast enchantments, log in below.</p>
+<p>Log in below to upload books, codices, spells, and cast enchantments</p>
 
 <form action="index.php" method="post" target="_self">
     <b>User Name:</b><br>
