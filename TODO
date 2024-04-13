@@ -20,6 +20,8 @@
 
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
+- ! fix: home should be SELECT \* from categories, then books
+- ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
 
 <br>
 

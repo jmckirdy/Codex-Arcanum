@@ -13,6 +13,6 @@
     <input type="hidden" value="validate" name="content">
 </form>
 
-<hr>
+<hr width="90%">
 <p><font size="2"><strong>TERMS OF USE:</strong> By logging in to this Website you agree to abide by all rules and regulations set forth in the TERMS OF USE. Respect the opinions of others&#8212;no flame wars!</font></p>
 </div>
