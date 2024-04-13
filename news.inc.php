@@ -14,7 +14,7 @@
 
 
 <!-- ⬇️  ⬇️ -->
-<h3>⬇️ Music Sample ⬇️</h3>
+<h3>Music Sample 🎵</h3>
 <!-- <br> -->
 <p style="font:normal 32px Times, serif; text-align:center;" onclick=playMusic() >▶️</p>
 <hr>
@@ -28,7 +28,7 @@ Precisely dated to 870, it is an important example of Carolingian art, as well a
 <hr>
 
 
-<h3>Weekly Show</h3>
+<h3>Weekly Show 📺</h3>
 <br>
 <?php
 // Multi-dimensional array with show names and corresponding IMDB links
@@ -52,13 +52,30 @@ echo $shows[$randomIndex]['name'] . " => <a target=\"_blank\" href='" . $shows[$
 <hr>
 
 
-<h3>Weekly GIF</h3>
+<h3>Weekly GIF 😂</h3>
 <br>
-<img src="assets/404Homer.gif" alt="someGIF" width="190px">
+
+
+<!-- <img src="assets/404Homer.gif" alt="someGIF" width="190px"> OLD-->
+<?php
+// Array of GIF URLs
+$gifs = array(
+    'assets/1.gif',
+    'assets/2.gif',
+    'assets/3.gif',
+    'assets/4.gif'
+);
+
+// Get a random index to display one GIF
+$randomIndex = array_rand($gifs);
+
+// Display the randomly selected GIF
+echo "<img src='" . $gifs[$randomIndex] . "' alt='Random GIF' width='260px'>";
+?>
 <hr>
 
 
-<h3>Tavern Gossip <i class="fa-solid fa-hat-wizard"></i></h3>
+<h3>Tavern Gossip 🍺</h3>
 <p>Have you heard? That lusty Argonian maid from Riften hooked up with the DragonBorn.<br><br> I can scarecly believe that she's his type!</p>
 <hr>
 <br>
