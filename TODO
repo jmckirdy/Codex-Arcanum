@@ -1,11 +1,8 @@
-# <span style="color:black;background-color:#ff0000">(tech debt)
+# <span style="color:black;background-color:#ff0000;">(older tech debt)
 
     added on date: March 27th 2024
 
 - !! do some research on to use main, master, and setup multiple branches
-
-- ! CSS -set max-width of .center class box. it bleeds under the .news box
-
 - ! includes news/main are conflicting, research best practice to use require or requOnce?
 <hr style="width:80%;background-color:#ff0000">
 
@@ -17,10 +14,13 @@
 - !! add next/ back like museum
 - !!! make color rgb changer function on:hover over blue links. scss func?
 
+<hr style="width:40%;background-color:dodgerblue">
+
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
 - ! fix: home should be SELECT \* from categories, then books
 - ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
+- ! fix: style h3 emojis with normal not italiacs
 
 <br>
 
@@ -54,3 +54,4 @@
 - ! change the link 'Server Status', make it NOT logout functionality.
 - ! check that news data is from right db. (it's not)
 - ! file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
+- ! CSS -set max-width of .center class box. it bleeds under the .news box

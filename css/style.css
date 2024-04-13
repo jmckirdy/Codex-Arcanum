@@ -242,6 +242,7 @@ strong {
   position: absolute;
   padding: 5px;
   border: 1px solid #E2EAEF;
+  border-left: 2px solid #E2EAEF;
   background-color: #f3f6f8;
   float: right;
   clear: both;
@@ -259,16 +260,16 @@ strong {
 .flex-container {
   display: flex;
   flex-direction: column;
+  position: relative;
   background-color: #333533;
   color: #f3f6f8;
-  width: 66.1%;
+  width: 66%;
   padding: 25px 25px;
   border: 1px solid #272927;
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
   width: 30%;
-  border: 1px solid;
   padding-top: 2px;
   padding-bottom: 2px;
 }
