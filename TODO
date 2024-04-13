@@ -3,9 +3,9 @@
     added on date: March 27th 2024
 
 - !! do some research on to use main, master, and setup multiple branches
-- ! check that news data is from right db. (it's not)
+
 - ! CSS -set max-width of .center class box. it bleeds under the .news box
-- ! file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
+
 - ! includes news/main are conflicting, research best practice to use require or requOnce?
 
 ## New
@@ -16,7 +16,7 @@
 
 - !! think/research implementation of breadcrumb at the top
 - !! add next/ back like museum
-- make color rgb changer function on:hover over blue links. scss func?
+- !!! make color rgb changer function on:hover over blue links. scss func?
 
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
@@ -25,7 +25,8 @@
 
 <br>
 
-- organize P.R by bug: feat: or chore:
+- ! feat/build:gpt a golden ration table clone of pixels, for ur categs/galaxies
+- chore:organize P.R by bug: feat: or chore:
 - bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way.
 
 <br>
@@ -53,3 +54,5 @@
 - ! clean up 'Glossary' page
 - Code snippets now have a light and dark theme css
 - ! change the link 'Server Status', make it NOT logout functionality.
+- ! check that news data is from right db. (it's not)
+- ! file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
