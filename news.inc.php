@@ -44,11 +44,10 @@ $shows = array(
 $randomIndex = array_rand($shows);
 
 // Display the randomly selected show
-echo $shows[$randomIndex]['name'] . " => <a target=\"_blank\" href='" . $shows[$randomIndex]['link'] . "'>imdb page</a>";
+echo $shows[$randomIndex]['name'] . "&nbsp; &#8212;> &nbsp;<a target=\"_blank\" href='" . $shows[$randomIndex]['link'] . "'>imdb page</a>";
 ?>
 <br>
 <br>
-<!-- <a href="https://www.imdb.com/title/tt8879940/" target="_blank">imdb link</a> -->
 <hr>
 
 

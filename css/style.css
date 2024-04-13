@@ -284,6 +284,24 @@ strong {
   font-size: large;
 }
 
+.galaxy-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid mediumslateblue;
+}
+.galaxy-table td {
+  padding: 10px;
+  border: 1px solid green;
+}
+.galaxy-table .left-column {
+  width: 30%;
+  color: greenyellow;
+}
+.galaxy-table .right-column {
+  width: 70%;
+  color: mediumorchid;
+}
+
 .glossary-term {
   color: bisque;
   font: normal 16px Times, serif;

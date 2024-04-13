@@ -82,6 +82,8 @@ session_start();
 
     </div>
 
+    <?php include("showcategories.inc.php"); ?>
+
     <div id="footer">
         <?php include("footer.inc.php"); ?>
     </div>
