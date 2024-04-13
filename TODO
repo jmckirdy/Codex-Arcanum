@@ -17,7 +17,7 @@
 - !! think/research implementation of breadcrumb at the top
 - !! add next/ back like museum
 - make color rgb changer function on:hover over blue links. scss func?
-- ! change the link 'Server Status', make it NOT logout functionality.
+
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
 
@@ -50,3 +50,4 @@
 - file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
 - ! clean up 'Glossary' page
 - Code snippets now have a light and dark theme css
+- ! change the link 'Server Status', make it NOT logout functionality.
