@@ -1,4 +1,4 @@
-# Codex Arcanum TODO List
+# <span style="color:black;background-color:#ff0000">(tech debt)
 
     added on date: March 27th 2024
 
@@ -7,12 +7,11 @@
 - ! CSS -set max-width of .center class box. it bleeds under the .news box
 
 - ! includes news/main are conflicting, research best practice to use require or requOnce?
+<hr style="width:80%;background-color:#ff0000">
 
-## <span style="color:#ff0000;background-color:#51a8e2">Fixs/Features High Priority</span>
+## <span style="color:#ff0000;background-color:black">Fixs/Features High Priority</span>
 
     added on date: April 06th 2024
-
-<hr>
 
 - !! think/research implementation of breadcrumb at the top
 - !! add next/ back like museum
@@ -28,9 +27,8 @@
 - ! feat/build:gpt a golden ration table clone of pixels, for ur categs/galaxies
 - chore:organize P.R by bug: feat: or chore:
 - bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way.
-
+<hr style="width:80%;background-color:#ff0000">
 <br>
-
 <br><br><br><br><br><br><br><br><br><br>
 
 ## Done
