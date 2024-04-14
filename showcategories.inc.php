@@ -26,6 +26,19 @@
     </tr>
 </table> -->
 
+<!-- 
+
+category upload number:
+/catu/#01, catu/#07
+
+db entry number:
+/dbent/#00132
+/dbent/#00012
+
+
+-->
+
+
 <?php
 require_once('library/login.php');
 $con = login();
