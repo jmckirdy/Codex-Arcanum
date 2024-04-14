@@ -1,11 +1,13 @@
 <?php
    header("Content-type: image/jpeg");
-   $id = $_GET['catid'];
+
    include("library/login.php");
    $con = login();
 
+   $id = $_GET['catid'];
+
    // ;"; that is for sql; and php row; -not sure if needed or not
-   $query = "SELECT picture from categories WHERE catid = $id;";
+   $query = "SELECT picture from categories WHERE catid = $id";
    $result = mysqli_query($con, $query);
    $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
    $picture = $row['picture'];
