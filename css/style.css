@@ -283,23 +283,36 @@ strong {
   font: normal 16px Times, serif;
   font-size: large;
 }
-
-.galaxy-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid mediumslateblue;
+.flex-container .galaxy-table {
+  width: 60%;
+  margin: auto;
 }
-.galaxy-table td {
-  padding: 10px;
+.flex-container .galaxy-table td {
+  padding: 8px;
+  border: 1px solid rgb(87, 88, 84);
+  background-color: #272927;
+}
+.flex-container .galaxy-table tr {
+  border: 3px solid pink;
+  background-color: aqua;
+}
+.flex-container .galaxy-table .tiny-cell {
+  padding: 0px;
+  width: 0%;
+  border: hidden;
+  background-color: #333533;
+}
+.flex-container .left-column, .flex-container .right-column {
+  width: 30%;
+  text-align: center;
+  font: bold italic 44px Arial, sans-serif;
   border: 1px solid green;
 }
-.galaxy-table .left-column {
-  width: 30%;
-  color: greenyellow;
-}
-.galaxy-table .right-column {
-  width: 70%;
-  color: mediumorchid;
+.flex-container .tiny-cell a,
+.flex-container .right-column a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
 }
 
 .glossary-term {

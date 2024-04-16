@@ -54,29 +54,44 @@
 
 
   .galaxy-table {
-    width: 96%;
-    border-collapse: collapse;
-    border: 6px solid rgb(20, 0, 136);
+    width: 60%;
+    // border-collapse: collapse;
+    // border: 1px solid rgb(87, 88, 84);
+    // border-radius: 8px;
+    // overflow:hidden; /* Ensure content doesn't overflow rounded corners */
+    margin: auto;
+  }
 
-    td {
-        padding: 10px;
-        border: 5px solid rgb(20, 0, 136);
-    }
-    
-    .left-column {
-        width: 30%;
-        background-color: rgb(87, 88, 84);
-        border: 3px solid rgb(255, 47, 127);
-    }
-    
-    .right-column {
-        width: 70%;
-        background-color: mediumorchid;
-        border: 3px solid mediumorchid;
+  .galaxy-table td {
+    padding: 8px;
+    border: 1px solid rgb(87, 88, 84);
+    background-color: $center-border;
+    // display: inline-block;
+  }
 
-    }
-}
+  .galaxy-table tr {
+    border: 3px solid pink;
+    background-color: aqua;
+  }
 
+  .galaxy-table .tiny-cell {
+    padding: 0px;
+    width: 0%;
+    border: hidden;
+    background-color: #333533;
+  } 
 
+  .left-column, .right-column {
+    width: 30%;
+    text-align: center;
+    font: bold italic 44px Arial, sans-serif;
+    border: 1px solid green;
+  }
 
+  .tiny-cell a,
+  .right-column a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+  }
 }

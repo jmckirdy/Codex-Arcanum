@@ -24,50 +24,19 @@ else
       $catid = $row['catid'];
       $title = $row['title'];
       $picture = $row['picture'];
-      // echo "<div class='test'>";
-      // echo "<tr><td>$catid</td>";
 
-
-      echo "<td class=\"left-column\"><img src=\"showimage.php?catid=$catid\" width=\"100%\" height=\"190px\"></td>";
-
-      //TODO::---- will need to change the url when getting content of category.
-      // look at register/validate any file with uploading the catid num
-      // 
-
-      echo "<td class=\"right-column\"><a href=\"index.php?content=showcategories&id=$catid\">$title</a></td></tr>";
-      // echo "<tr><td>$catid</td><td>$title</td>\n";
-      // divs above need to style and load correctly!
-
-     
+      // //TODO::---- will need to change the url when getting content of category.
+      // // look at register/validate any file with uploading the catid num
+ 
+      echo "<tr>";
+      echo "<td class=\"left-column\"><a href=\"index.php?content=showcategories&id=$catid\"><img src=\"showimage.php?catid=$catid\" width=\"100%\" height=\"190px\"></a></td>";
+      echo "<td class=\"tiny-cell\"><a href=\"index.php?content=showcategories&id=$catid\">&nbsp;</a></td>";
+      echo "<td class=\"right-column\"><a href=\"index.php?content=showcategories&id=$catid\">$title</a></td>";
+      echo "</tr>";     
    }
    echo "</table>\n";
 }
 ?>
-
-<!-- 
-THE CLASSES THE LIE ABOVE YOU   
-.galaxy-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid mediumslateblue;
-
-    td {
-        padding: 10px;
-        border: 1px solid green;
-    }
-    
-    .left-column {
-        width: 30%;
-        color: greenyellow;
-    }
-    
-    .right-column {
-        width: 70%;
-        color: mediumorchid;
-    }
-} -->
-
-
 
 
 
