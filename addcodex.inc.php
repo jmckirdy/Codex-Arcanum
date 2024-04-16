@@ -5,7 +5,7 @@ $catid = 1;
 
 $title = addslashes($_POST['title']);
 $poster = addslashes($_POST['poster']);
-// $shortdesc = addslashes($_POST['shortdesc']);
+$typeof = addslashes($_POST['typeof']);
 $textfile = addslashes(htmlspecialchars($_POST['textfile']));
 
 
@@ -17,10 +17,10 @@ if (trim($poster) == "")
     include('library/login.php');
     $con = login();
 
-    $query = "INSERT INTO codices (catid, title, poster, textfile) "  .
+    $query = "INSERT INTO codices (catid, typeof, title, poster, textfile) "  .
 
 
-          " VALUES ('$catid', '$title', '$poster', '$textfile')";
+          " VALUES ('$catid', '$typeof', '$title', '$poster', '$textfile')";
 
 
     $result = mysqli_query($con, $query) or die(mysqli_error($con));

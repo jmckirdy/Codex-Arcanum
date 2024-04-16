@@ -19,9 +19,9 @@ if (mysqli_num_rows($result) == 0) {
    $_SESSION['valid_codex_user'] = $userid;
    
    // TESTING    
-//    echo var_dump($_SESSION);
+   // echo var_dump($_SESSION);
    
-   echo "<p>Your user account has been validated, you can now upload <a href=\"index.php?content=glossary\">books/codices/spells</a> and cast enchantments.</p>\n";
+   echo "<p>Your user account has been validated, you can now upload <a title=\"Learn More\" href=\"index.php?content=glossary\">Books, Codices & Spells</a> and cast enchantments.</p>\n";
    echo "<a href=\"index.php\">Return to Home</a>\n";
 }
 ?>

@@ -1,41 +1,12 @@
 <!-- Home Page, Categories with galaxy pics in a table -->
-<!-- <table class="galaxy-table">
-    <tr>
-        <td class="left-column">Galaxy Pic 01</td>
-        <td class="right-column">This is the content of row 1.</td>
-    </tr>
-    <tr>
-        <td class="left-column">Row 2</td>
-        <td class="right-column">This is the content of row 2.</td>
-    </tr>
-    <tr>
-        <td class="left-column">Row 3</td>
-        <td class="right-column">This is the content of row 3.</td>
-    </tr>
-    <tr>
-        <td class="left-column">Galaxy Pic 04</td>
-        <td class="right-column">This is the content of row 4.</td>
-    </tr>
-    <tr>
-        <td class="left-column">Row 5</td>
-        <td class="right-column">This is probably Linux/Bash</td>
-    </tr>
-    <tr>
-        <td class="left-column">Row 6</td>
-        <td class="right-column">This is the content of row 6.</td>
-    </tr>
-</table> -->
 
 <!-- 
-
 category upload number:
 /catu/#01, catu/#07
 
 db entry number:
 /dbent/#00132
 /dbent/#00012
-
-
 -->
 
 
