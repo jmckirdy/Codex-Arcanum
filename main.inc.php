@@ -60,8 +60,11 @@ else
       echo "<tr><td>$catid</td>";
       echo "<td><img src=\"showimage.php?catid=$catid\" width=\"150px\"></td>";
 
-      // will need to change the url when getting content of category.
-      echo "<td><a href=\"index.php?content=showcodex&id=$catid\">$title</a></td></tr>";
+      //TODO::---- will need to change the url when getting content of category.
+      // look at register/validate any file with uploading the catid num
+      // 
+
+      echo "<td><a href=\"index.php?content=showcategories&id=$catid\">$title</a></td></tr>";
       // echo "<tr><td>$catid</td><td>$title</td>\n";
       // divs above need to style and load correctly!
 

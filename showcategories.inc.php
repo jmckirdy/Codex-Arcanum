@@ -43,28 +43,60 @@ db entry number:
 require_once('library/login.php');
 $con = login();
 
-$catid = $_GET['id'];
-$query = "SELECT title,poster,textfile from codices where codexid = $catid";
+// $catid = $_GET['id'];
+// $query = "SELECT title,poster,textfile from codices where catid = $catid";
 
-$result = mysqli_query($con, $query) or die('Sorry, could not find codex requested');
-$row = mysqli_fetch_array($result, MYSQLI_ASSOC) or die('No records retrieved');
-$title = $row['title'];
-$poster = $row['poster'];
-$textfile = $row['textfile'];
-$textfile = nl2br($textfile);
+// $result = mysqli_query($con, $query) or die('Sorry, could not find codex requested');
+// $row = mysqli_fetch_array($result, MYSQLI_ASSOC) or die('No records retrieved');
+// $title = $row['title'];
+// $poster = $row['poster'];
+// $textfile = $row['textfile'];
+// $textfile = nl2br($textfile);
 
-echo "<div class='flex-container'>";
-echo "<h2>$title</h2>\n";
-echo "by $poster <br><br>\n";
-echo "<h3>Content</h3><br>\n";
-    echo "<div class='flex-item'>";
+// echo "<div class='flex-container'>";
+    // echo "<h2>$title</h2>\n";
+    // echo "by $poster <br><br>\n";
+    // echo "<h3>Content</h3><br>\n";
+//     echo "<div class='flex-item'>";
 
-        // Giant textfile from db, wrapped in codex-text class for font styling
-        echo "<div class='codex-text'>";
-        echo "$textfile<br><br>\n";
-        echo "</div>";
-    echo "</div>";
-echo "</div>";
+//         // Giant textfile from db, wrapped in codex-text class for font styling
+//         echo "<div class='codex-text'>";
+//         echo "$textfile<br><br>\n";
+//         echo "</div>";
+//     echo "</div>";
+// echo "</div>";
 
+
+
+
+
+// include("library/login.php");
+      // $con = login();
+      $catid = $_GET['id'];
+      $query = "SELECT codexid,catid,title,poster,textfile from codices WHERE catid = $catid;";
+      // $result = mysqli_query($con, $query) or die('Sorry, could not get recipes at this time ');
+      $result = mysqli_query($con, $query) or die(mysqli_error($con));
+
+      if (mysqli_num_rows($result) == 0)
+      {
+         echo "<h3>Sorry, there is no data in this category.</h3>";
+      } else
+      {
+         while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
+         {
+            $codexid = $row['codexid'];
+            $title = $row['title'];
+            $poster = $row['poster'];
+            $textfile = $row['textfile'];
+            //  the url ending below is the link content=pageTarget.
+            echo "<a class='center-title-link' href=\"index.php?content=showcodex&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster<br>\n";
+            
+            echo "<div class='codex-text'>";
+            echo substr($textfile, 0, 100) . " ...<br>";
+            echo "</div>";
+
+            echo "<hr><br>\n";
+         }
+      }
 ?>
 
