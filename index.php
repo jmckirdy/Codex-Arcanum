@@ -57,7 +57,7 @@ session_start();
         </div>
 
         <!-- <div class='flex-container'>
-            <h1>The flex-direction Property</h1>
+            <h1>The flex-direction Property example</h1>
             <p>Ye Olde Codger's Coding Tomes</p>
             <div id="flex-item-1">1 Lorem ipsum dolor sit ametis repudiandae natus consectetur, quaerat eius, saepe explicabo, cumque vel modi sapiente perspiciatis perferendis similique nobis.</div>
             <div id="flex-item-2">2  consectetur adipisicing elit. Assumenda atque vero praesentium exercitationem impedit facil</div> -->

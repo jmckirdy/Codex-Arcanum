@@ -16,8 +16,6 @@ if (trim($poster) == "")
 {
     include('library/login.php');
     $con = login();
-    // $con = mysqli_connect("localhost", "test", "test", "recipes") or die('Could not connect to server');
-
 
     $query = "INSERT INTO codices (catid, title, poster, textfile) "  .
 

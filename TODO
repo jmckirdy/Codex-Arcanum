@@ -23,13 +23,11 @@
 
 - ! Fix Nav links by SELECT \* from books,codices,spells.
 - ! finish file upload button
-- ! fix: home should be SELECT \* from categories, then books
-- ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
 - ! fix: style h3 emojis with normal not italiacs
 
 <br>
 
-- ! feat/build:gpt a golden ration table clone of pixels, for ur categs/galaxies
+- ! place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
 
 - bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way.
 <hr style="width:40%;background-color:dodgerblue">
@@ -60,3 +58,5 @@
 - ! check that news data is from right db. (it's not)
 - ! file: newcodex.inc.php, add a dropdown for categories, then improve $catid in addcodex.inc.php
 - ! CSS -set max-width of .center class box. it bleeds under the .news box
+- ! fix: home should be SELECT \* from categories, then books
+- ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
