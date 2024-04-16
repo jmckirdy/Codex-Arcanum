@@ -68,7 +68,7 @@ $con = login();
 
 
 
-
+// this file should maybe be named showcategory, or expandcategory. it is referenced elsewhere in the app too so make sure to change those spots. 
 
 // include("library/login.php");
       // $con = login();
