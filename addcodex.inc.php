@@ -1,7 +1,7 @@
 <?php
 
-// $catid = $_POST['catid'];
-$catid = 1;
+$catid = $_POST['catid'];
+// $catid = 1;
 
 $title = addslashes($_POST['title']);
 $poster = addslashes($_POST['poster']);
@@ -24,10 +24,11 @@ if (trim($poster) == "")
 
 
     $result = mysqli_query($con, $query) or die(mysqli_error($con));
-
-    if ($result)
+}
+    if ($result) {
        echo "<p>Upload Successful</p>\n";
-    else
+    //    echo "var_dump($catid)\n";
+    } else {
        echo "<p>Sorry, there was a problem with your upload</p>\n";
 }
 

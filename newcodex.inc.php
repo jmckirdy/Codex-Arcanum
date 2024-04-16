@@ -5,20 +5,21 @@
         <p>Upload your books, codices, and spells</p><br>
 
         Type:&nbsp;<select name="typeof">
-            <option value="Book" name="Book">Book</option>
             <option value="Codex" name="Codex">Codex</option>
             <option value="Spell" name="Spell">Spell</option>
+            <option value="Book" name="Book">Book</option>
         </select><br><br>
 
-        Category:&nbsp;<select name="dropdown">
-            <option value="PHP" name="catid">PHP</option>
-            <option value="SQL" name="SQL">SQL</option>
-            <option value="JavaScript" name="catid">JavaScript</option>
-            <option value="SQL" name="catid">Python</option>
-            <option value="SQL" name="catid">Linux</option>
-            <option value="SQL" name="catid">DSA</option>
-            <option value="SQL" name="catid">Web Design</option>
-            <option value="SQL" name="catid">C/C++</option>
+        Category:&nbsp;<select name="catid">
+            <option value="2" name="2">Linux</option>
+            <option value="1" name="1">PHP</option>
+            <option value="7" name="7">SQL</option>
+            <option value="3" name="3">JavaScript</option>
+            <option value="4" name="4">Python</option>
+            <option value="5" name="5">C/C++</option>
+            <option value="6" name="6">DSA</option>
+            <option value="8" name="8">Web Design</option>
+            <option value="9" name="9">Other</option>
         </select><br><br>
 
         Title:&nbsp;<input type="text" size="40" name="title"><br><br>
