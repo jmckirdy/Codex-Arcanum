@@ -69,8 +69,25 @@ $con = login();
 
 
 // this file should maybe be named showcategory, or expandcategory. it is referenced elsewhere in the app too so make sure to change those spots. 
-// error handling and results need the div to style it.
+
 // upload page needs the category id number to work. catid number in db needs to be foreign key perhaps 
+
+
+
+
+
+// echo "<div class='flex-container'>";
+
+//     echo "<div class='flex-item'>";
+
+//     echo "</div>";
+// echo "</div>";
+
+
+
+
+echo "<div class='flex-container'>";
+    echo "<div class='flex-item'>";
 
 // include("library/login.php");
       // $con = login();
@@ -100,5 +117,9 @@ $con = login();
             echo "<hr><br>\n";
          }
       }
+
+
+    echo "</div>";
+echo "</div>";
 ?>
 
