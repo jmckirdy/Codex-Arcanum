@@ -28,7 +28,7 @@ else
       // echo "<tr><td>$catid</td>";
 
 
-      echo "<td class=\"left-column\"><img src=\"showimage.php?catid=$catid\" width=\"150px\"></td>";
+      echo "<td class=\"left-column\"><img src=\"showimage.php?catid=$catid\" width=\"100%\" height=\"190px\"></td>";
 
       //TODO::---- will need to change the url when getting content of category.
       // look at register/validate any file with uploading the catid num
