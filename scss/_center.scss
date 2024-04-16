@@ -51,4 +51,29 @@
     font: $fontstack1;
     font-size: large;
   }
+
+
+  .galaxy-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid mediumslateblue;
+
+    td {
+        padding: 10px;
+        border: 1px solid green;
+    }
+    
+    .left-column {
+        width: 30%;
+        color: greenyellow;
+    }
+    
+    .right-column {
+        width: 70%;
+        color: mediumorchid;
+    }
+}
+
+
+
 }

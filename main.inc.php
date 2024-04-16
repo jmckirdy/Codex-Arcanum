@@ -17,7 +17,7 @@ if (mysqli_num_rows($result) == 0)
 } 
 else
 {
-   echo "<table>";
+   echo "<table class=\"galaxy-table\">";
    while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
    {
 
@@ -25,14 +25,16 @@ else
       $title = $row['title'];
       $picture = $row['picture'];
       // echo "<div class='test'>";
-      echo "<tr><td>$catid</td>";
-      echo "<td><img src=\"showimage.php?catid=$catid\" width=\"150px\"></td>";
+      // echo "<tr><td>$catid</td>";
+
+
+      echo "<td class=\"left-column\"><img src=\"showimage.php?catid=$catid\" width=\"150px\"></td>";
 
       //TODO::---- will need to change the url when getting content of category.
       // look at register/validate any file with uploading the catid num
       // 
 
-      echo "<td><a href=\"index.php?content=showcategories&id=$catid\">$title</a></td></tr>";
+      echo "<td class=\"right-column\"><a href=\"index.php?content=showcategories&id=$catid\">$title</a></td></tr>";
       // echo "<tr><td>$catid</td><td>$title</td>\n";
       // divs above need to style and load correctly!
 
@@ -41,6 +43,31 @@ else
    echo "</table>\n";
 }
 ?>
+
+<!-- 
+THE CLASSES THE LIE ABOVE YOU   
+.galaxy-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid mediumslateblue;
+
+    td {
+        padding: 10px;
+        border: 1px solid green;
+    }
+    
+    .left-column {
+        width: 30%;
+        color: greenyellow;
+    }
+    
+    .right-column {
+        width: 70%;
+        color: mediumorchid;
+    }
+} -->
+
+
 
 
 
