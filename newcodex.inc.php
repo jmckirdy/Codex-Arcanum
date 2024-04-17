@@ -22,12 +22,12 @@
             <option value="9" name="9">Other</option>
         </select><br><br>
 
-        Title:&nbsp;<input type="text" size="40" name="title"><br><br>
+        Title:&nbsp;<input type="text" size="40" name="title" name="file_name"><br><br>
 
         Poster:&nbsp;<input type="text" size="40" name="poster"><br><br>
 
         <label for="fileupload">Choose a file from your computer:</label>
-        <input type="file" id="fileupload" name="fileupload" accept=".pdf,.odt,.doc,.docx,.xml,.rtf" />
+        <input type="file" id="fileupload" name="file_data" accept=".pdf,.odt,.doc,.docx,.xml,.rtf" />
         <br><br>
 
         Or Plainext:<br>
