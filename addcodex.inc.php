@@ -8,6 +8,7 @@ $poster = addslashes($_POST['poster']);
 $typeof = addslashes($_POST['typeof']);
 $textfile = addslashes(htmlspecialchars($_POST['textfile']));
 
+$fileupload = addslashes(htmlspecialchars($_POST['fileupload']));
 
 if (trim($poster) == "")
 {
