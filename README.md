@@ -1,10 +1,10 @@
 # <span style="color:black;background-color:#ff0000;">Codex-Arcanum🎋🏯🌟📜 🉑</span> <br>
 
-date added: March 27th 2024<br>
+added: March 27th 2024<br>
 
 - your personalized repo of notes and information pertaining to <em>your</em> programming journey
 - on the left is the nav panel
-- to the right are some 'friv'olous widgets i think are cool on a website
+- to the right are some '<a href="friv.com" title="some inspiration">friv</a>'olous widgets i think are cool on a website
 - you can upload your notes, books/pdfs, and custom shell scripts
 - these uploads appear in the center panel, in the chosen category
 - dope upload form with hidden security features & throttler
@@ -22,10 +22,6 @@ added: April 06th 2024
 
 <hr style="width:40%;background-color:dodgerblue">
 
-## TLDR;
-
-A textual, personalized, programming resource; that's magic themed.
-
 ### 🉐 Magical Glossary 🉐
 
 <b>Wizard/Mage/Sorcerer:</b> Synonymous with programmer.<br>
@@ -36,5 +32,9 @@ A textual, personalized, programming resource; that's magic themed.
 <b>Cast:</b> Synonymous with commenting/posting an enchantment.<br>
 <b>Category:</b> Codices fall under one category or topic.<br>
 <b>Tags:</b> Tags fall under one codice or book. Aim to include 3-12 tags with every upload.<br>
+
+### TLDR;
+
+A textual, personalized, programming resource; that's magic themed.
 
 <hr style="width:40%;background-color:dodgerblue"><br>
