@@ -1,8 +1,6 @@
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+# <span style="color:black;background-color:#ff0000;">Codex-Arcanum🎋🏯🌟📜 🉑</span> <br>
 
-# <span style="color:black;background-color:#ff0000;">Codex-Arcanum <br><sup>
-
-    added on date: March 27th 2024
+date added: March 27th 2024<br>
 
 - your personalized repo of notes and information pertaining to <em>your</em> programming journey
 - on the left is the nav panel
@@ -15,9 +13,9 @@
 
 <hr style="width:40%;background-color:dodgerblue">
 
-## <span style="color:#ff0000;background-color:black">{Magic Part}</span>
+## <span style="color:#ff0000;background-color:black">{Magic Part} 🧙‍♂️📜✨</span>
 
-    added on date: April 06th 2024
+added: April 06th 2024
 
 - revisit your notes and refresh your knowledge by dropping an enchantment &/OR stickers
 - check/keep knowledge at a HOT/MEDIUM/COLD level (in your mind) by checking the indicator icons by the book/codex/spell.
@@ -28,7 +26,7 @@
 
 A textual, personalized, programming resource; that's magic themed.
 
-### Magical Glossary
+### 🉐 Magical Glossary 🉐
 
 <b>Wizard/Mage/Sorcerer:</b> Synonymous with programmer.<br>
 <b>Codex(Codices):</b> A Mage's final draft of notes (doc/pdf). 2-15 pages long. Possibly split into Part I, Part II, etc.<br>
