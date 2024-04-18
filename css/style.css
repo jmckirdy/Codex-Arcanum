@@ -264,14 +264,20 @@ strong {
   background-color: #333533;
   color: #f3f6f8;
   width: 66%;
+  height: 400%;
   padding: 25px 25px;
   border: 1px solid #272927;
+  /* Additional height for the iframe */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
   width: 30%;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+.flex-container #flex-item iframe {
+  height: 600%;
+  /* Set height to viewport height + 200 pixels */
 }
 .flex-container h2, .flex-container h3, .flex-container h4 {
   color: #f3f6f8;

@@ -17,11 +17,22 @@
     //   color:#f3f6f8;
     //   color: #f1f1f1;
     width: 66%;
+    height: 400%;
     // max-width: 63%;
     
     padding: 25px 25px;
     border: 1px solid $center-border;
-  
+
+    /* Additional height for the iframe */
+    // iframe {
+    //   height: calc(100vh + 200px); /* Set height to viewport height + 200 pixels */
+    // }
+
+
+  // #flex-item-books {
+  //   position: absolute;
+  //   margin-top: -40px;
+  // }
 
   #flex-item {
     margin: 25px, 25px 25px, 25px;
@@ -35,6 +46,12 @@
 
     // position: fixed;
     // right: 0;
+
+    // Additional height for the iframe */
+  iframe {
+    height: 600%; /* Set height to viewport height + 200 pixels */
+  }
+
   }
 
   h2,h3,h4 {
@@ -95,3 +112,8 @@
     padding: 10px;
   }
 }
+
+// // Additional height for the iframe */
+// iframe {
+//   height: 600%; /* Set height to viewport height + 200 pixels */
+// }
