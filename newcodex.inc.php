@@ -26,6 +26,9 @@
 
         Poster:&nbsp;<input type="text" size="40" name="poster"><br><br>
 
+        <!-- 
+         ////////////////////////// SPEED <GOVERNER><THROTTLER></THROTTLER> -->
+        <!-- <input type="hidden" name="MAX_FILE_SIZE" value="5000" /> -->
         <label for="fileupload">Choose a file from your computer:</label>
         <input type="file" id="fileupload" name="fileupload" accept=".pdf,.odt,.doc,.docx,.xml,.rtf" />
         <br><br>
