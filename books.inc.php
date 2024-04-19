@@ -3,7 +3,9 @@ include('library/login.php');
 $con = login();
 
 // $id = 28; // Assuming you're fetching a specific PDF by its ID
-$id = 4; 
+$id = 2; 
+// kept interesting ids! !didn't like .epubs, it downloaded and would not open.
+// $id = 20; 
 
 // $query = "SELECT file_data, file_name FROM pdf_files WHERE id = $id";
 // $result = mysqli_query($con, $query) or die('Sorry, could not retrieve PDF');
