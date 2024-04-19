@@ -139,6 +139,12 @@ body {
   padding: 0px;
 }
 
+.flex-container iframe {
+  height: 700px;
+  /* Set height to viewport height + 200 pixels */
+  color: pink;
+}
+
 a {
   color: #006699;
   text-decoration: none;
@@ -260,17 +266,18 @@ strong {
 .flex-container {
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: #333533;
   color: #f3f6f8;
   width: 66%;
   height: 400%;
+  height: auto;
   padding: 25px 25px;
   border: 1px solid #272927;
   /* Additional height for the iframe */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
+  height: auto;
   width: 30%;
   padding-top: 2px;
   padding-bottom: 2px;

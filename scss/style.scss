@@ -21,10 +21,11 @@ body{
 
 }
   
-// // Additional height for the iframe */
-// iframe {
-//   height: 400%; /* Set height to viewport height + 200 pixels */
-// }
+// Additional height for the iframe */
+.flex-container iframe {
+  height: 700px; /* Set height to viewport height + 200 pixels */
+  color: pink;
+}
 
 a{
   color: #006699;
