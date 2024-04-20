@@ -2,32 +2,15 @@
 include('library/login.php');
 $con = login();
 
+$id = $_GET['id'];
 // $id = 28; // Assuming you're fetching a specific PDF by its ID
-$id = 2; 
+// $id = 8; 
 // kept interesting ids! !didn't like .epubs, it downloaded and would not open.
 // $id = 20; 
 
-// $query = "SELECT file_data, file_name FROM pdf_files WHERE id = $id";
-// $result = mysqli_query($con, $query) or die('Sorry, could not retrieve PDF');
-
-// if (mysqli_num_rows($result) > 0) {
-//     $row = mysqli_fetch_assoc($result);
-//     $file_name = $row['file_name'];
-//     $file_data = $row['file_data'];
-
-//     // Set appropriate headers
-//     header('Content-Type: application/pdf');
-//     header('Content-Disposition: inline; filename="' . $file_name . '"');
-
-//     // Output the PDF data
-//     echo $file_data;
-// } else {
-//     die('PDF not found');
-// }
-
 
 // SELECTING PDF WINDOW
-$query = "SELECT id, file_name, file_data FROM pdf_files WHERE id = $id";
+$query = "SELECT id, codexid, file_name, file_data FROM pdf_files WHERE codexid = $id";
 $result = mysqli_query($con, $query) or die('Sorry, could not find the requested PDF');
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC) or die('No records retrieved');
 

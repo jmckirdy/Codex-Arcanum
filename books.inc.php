@@ -34,7 +34,7 @@ echo "<div class='flex-container'>";
             $typeof = $row['typeof'];
 
             echo "<a class='center-title-link' href=\"index.php?content=booksshow&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster &nbsp;|&nbsp; $typeof<br>\n";
-            
+            // $codexid needs to match the id in booksshow, AND be the id of that pdf from pdf_files.
             echo "<div class='codex-text'>";
             echo substr($textfile, 0, 100) . " ...<br>";
             echo "</div>";
