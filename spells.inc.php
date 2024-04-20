@@ -33,7 +33,7 @@ echo "<div class='flex-container'>";
             $codexid = $row['codexid'];
             $typeof = $row['typeof'];
 
-            echo "<a class='center-title-link' href=\"index.php?content=showcodex&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster &nbsp;|&nbsp; $typeof<br>\n";
+            echo "<a class='center-title-link' href=\"index.php?content=showcodexspell&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster &nbsp;|&nbsp; $typeof<br>\n";
             // THIS file goes to showcodex file that echoes simple text, NOT complicated pdf like booksshow 
             echo "<div class='codex-text'>";
             echo substr($textfile, 0, 100) . " ...<br>";

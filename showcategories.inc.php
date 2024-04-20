@@ -48,7 +48,7 @@ echo "<div class='flex-container'>";
             $poster = $row['poster'];
             $textfile = $row['textfile'];
             //  the url ending below is the link content=pageTarget.
-            echo "<a class='center-title-link' href=\"index.php?content=showcodex&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster<br>\n";
+            echo "<a class='center-title-link' href=\"index.php?content=showcodexspell&id=$codexid\">$title</a>&nbsp;&nbsp; uploaded by: $poster<br>\n";
             
             echo "<div class='codex-text'>";
             echo substr($textfile, 0, 100) . " ...<br>";
