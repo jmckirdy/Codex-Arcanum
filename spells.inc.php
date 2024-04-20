@@ -10,10 +10,10 @@ $con = login();
 
 echo "<div class='flex-container'>";
     echo "<div class='flex-item'>";
-    echo "The Newest <strong style='background-color:yellowgreen'>Codices</strong>...<br><br>\n";
+    echo "The Newest <strong style='background-color:red'>Spells</strong>...<br><br>\n";
 
     // $query = "SELECT codexid,title,poster,textfile,typeof FROM codices WHERE typeof = 'Book'";
-    $query = "SELECT * FROM codices WHERE typeof = 'Codex' ORDER BY `codices`.`typeof` ASC;";  //ASC is not working for some reason
+    $query = "SELECT * FROM codices WHERE typeof = 'Spell' ORDER BY `codices`.`typeof` ASC;";  //ASC is not working for some reason
 
     // $query2 = "SELECT file_name, upload_date FROM pdf_files";
 
