@@ -26,8 +26,6 @@
 
 <br>
 
-- 🟩 place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
-
 - 🟩 bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way. <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Instead;</b> link to curr. page via url in key="enchant.inc.php?key=value& ..."
 
 Notes:
@@ -80,3 +78,4 @@ smaller 10B files that were bad
 - ! fix: home should be SELECT \* from categories, then books
 - ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
 - 🟩 finish file upload button
+- 🟩 place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
