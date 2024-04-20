@@ -22,26 +22,38 @@
 ### <span style="color:#ff0000;background-color:black">Most High Priority</span>
 
 - 🟩 Fix Nav links by SELECT \* from books,codices,spells.
-- 🟩 finish file upload button
 - 🟩 fix: style h3 emojis with normal not italiacs
 
 <br>
 
 - 🟩 place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
 
-- bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way. <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Instead;</b> link to curr. page via url in key="enchant.inc.php?key=value& ..."
+- 🟩 bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way. <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Instead;</b> link to curr. page via url in key="enchant.inc.php?key=value& ..."
+
+Notes:
+
+- each book/pdf upload should include a short desc. so that i can query/display only that short-desc from the codices TABLE, not the pdf_files TABLE. the pdf_data row of that table needs to convert from binary->substring... so it's much harder
+- Note02
 
 <hr style="width:40%;background-color:dodgerblue">
 <br>
 <br><br><br><br><br><br><br><br><br><br>
 
+<!--
+🟩 Greater Priority
+🟨 Lesser Priority
+EXTRA EMOJIS
+↪️
+🏞️
+⬇️
+☑️
+
 data that pdf showing does not work with as well:
 text .txt (Ella file)
 smaller 10B files that were bad
+-->
 
 ## Done
-
-<!-- ↪️ 🏞️ ⬇️  ☑️ -->
 
 - !get cookies working and test comments, and all pages B4 DOING ABOVE!
 - FIX, All comments are going into 2nd codex (Japanese one), they need to stick to the right codex.
@@ -67,3 +79,4 @@ smaller 10B files that were bad
 - ! CSS -set max-width of .center class box. it bleeds under the .news box
 - ! fix: home should be SELECT \* from categories, then books
 - ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
+- 🟩 finish file upload button
