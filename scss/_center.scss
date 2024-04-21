@@ -50,33 +50,22 @@
   
   .far-left {
     // padding: 2px;
-    border: 1px solid rgb(161, 204, 31);
+    border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
     margin-right: auto; /* Pushes the element to the far left */
 
     width: 40%;
     height: 10%;
-
+    cursor: pointer;
   }
   
   .spacer {
     background-color: $center-border;
+    border-bottom: 1px solid $center-border-dark;
+
     width: 10%;
+    cursor: pointer;
   }
-
-
-  // .far-right {
-  //   padding: 40px 60px;
-  //   border: 1px solid rgb(161, 204, 31);
-  //   background-color: $center-border;
-  //   margin-left: auto; /* Pushes the element to the far right */
-
-  //   width: 40%;
-  //   // height: 10%;
-  // }
-
-
-
 
   .far-right {
     padding: 40px 60px;
@@ -87,9 +76,14 @@
     cursor: pointer; /* Change cursor to pointer on hover */
   }
   
-  /* Optionally, you can add styles to visually indicate that the div is clickable */
+
   .far-right:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Light background color on hover */
+    background-color: #0000001a;
   }
-  
+  .far-left:hover {
+    background-color: #0000001a;
+  }
+  .spacer:hover {
+    background-color: #0000001a;
+  }
 }

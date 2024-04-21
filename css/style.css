@@ -273,7 +273,6 @@ strong {
   height: auto;
   padding: 25px 25px;
   border: 1px solid #272927;
-  /* Optionally, you can add styles to visually indicate that the div is clickable */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
@@ -306,16 +305,19 @@ strong {
   flex-wrap: wrap;
 }
 .flex-container .far-left {
-  border: 1px solid rgb(161, 204, 31);
+  border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
   margin-right: auto;
   /* Pushes the element to the far left */
   width: 40%;
   height: 10%;
+  cursor: pointer;
 }
 .flex-container .spacer {
   background-color: #272927;
+  border-bottom: 1px solid #1c1c1f;
   width: 10%;
+  cursor: pointer;
 }
 .flex-container .far-right {
   padding: 40px 60px;
@@ -328,8 +330,13 @@ strong {
   /* Change cursor to pointer on hover */
 }
 .flex-container .far-right:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  /* Light background color on hover */
+  background-color: rgba(0, 0, 0, 0.1019607843);
+}
+.flex-container .far-left:hover {
+  background-color: rgba(0, 0, 0, 0.1019607843);
+}
+.flex-container .spacer:hover {
+  background-color: rgba(0, 0, 0, 0.1019607843);
 }
 
 .glossary-term {
