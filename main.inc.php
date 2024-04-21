@@ -35,9 +35,14 @@ else
       echo "    <div class=\"spacer\">";
       echo "        <a href=\"index.php?content=showcategories&id=$catid\">";
       echo "    </div>";
-      echo "    <div class=\"far-right\">";
-      echo "        <a href=\"index.php?content=showcategories&id=$catid\">$title</a>";
-      echo "    </div>";
+      // echo "    <div class=\"far-right\">";
+      // echo "        <a href=\"index.php?content=showcategories&id=$catid\">$title</a>";
+      // echo "    </div>";
+
+      echo "<a class=\"far-right\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<div>$title</div></a>";
+
+      
       echo "<br>\n";
 
    }
