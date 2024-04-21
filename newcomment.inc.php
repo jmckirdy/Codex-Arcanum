@@ -9,7 +9,7 @@ if (!isset($_SESSION['valid_codex_user'])) {
 
     echo "<a href=\"index.php?content=login\">Please login to cast enchantments</a><br>\n";
 
-    echo "<a href=\"index.php?content=showcodex&id=$id\">Go back to codex</a>\n";
+    echo "<a href=\"index.php?content=showcodexspell&id=$id\">Go back to codex</a>\n";
 
 } else {
 
