@@ -328,6 +328,8 @@ strong {
   width: 30%;
   cursor: pointer;
   /* Change cursor to pointer on hover */
+  text-align: left;
+  font-size: xx-large;
 }
 .flex-container .far-right:hover {
   background-color: rgba(0, 0, 0, 0.1019607843);

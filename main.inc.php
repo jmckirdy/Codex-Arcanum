@@ -27,24 +27,16 @@ else
 
       //TODO::---- will need to change the url when getting content of category.
       // look at register/validate any file with uploading the catid num
-      echo "    <div class=\"far-left\">";
-      echo "        <a href=\"index.php?content=showcategories&id=$catid\">";
-      echo "            <img src=\"showimage.php?catid=$catid\" width=\"auto\" height=\"150px\" alt=\"Image\">";  // IMPORTANT SIZE CSS
-      echo "        </a>";
-      echo "    </div>";
-      echo "    <div class=\"spacer\">";
-      echo "        <a href=\"index.php?content=showcategories&id=$catid\">";
-      echo "    </div>";
-      // echo "    <div class=\"far-right\">";
-      // echo "        <a href=\"index.php?content=showcategories&id=$catid\">$title</a>";
-      // echo "    </div>";
+
+      echo "<a class=\"far-left\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<img src=\"showimage.php?catid=$catid\" width=\"auto\" height=\"150px\" alt=\"Image\"></a>";
+
+      echo "<a class=\"spacer\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<div></div></a>";
 
       echo "<a class=\"far-right\" href=\"index.php?content=showcategories&id=$catid\">";
-      echo "<div>$title</div></a>";
-
-      
+      echo "<div>$title</div></a>";     
       echo "<br>\n";
-
    }
    echo "</div>\n";
 }
