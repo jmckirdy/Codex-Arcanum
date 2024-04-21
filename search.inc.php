@@ -32,7 +32,7 @@
 
             $textfile = $row['textfile'];
 
-            echo "<a href=\"index.php?content=showcodex&id=$codexid\">$title</a><br>\n";
+            echo "<a href=\"index.php?content=showcodexspell&id=$codexid\">$title</a><br>\n";
 
             echo "$textfile<br><br>\n";
         }

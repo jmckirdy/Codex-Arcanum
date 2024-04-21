@@ -37,57 +37,8 @@
     font-size: large;
   }
 
+  // import categs, but don't forget this file center imported into style too.
+  @import 'categories';
 
 
-
-  .galaxy-cats {
-    width: 100%; /* Adjust width and padding as needed */
-    margin: 10px; /* Adjust as needed */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  .far-left {
-    // padding: 2px;
-    border-bottom: 1px solid $center-border-dark;
-    background-color: $center-border;
-    margin-right: auto; /* Pushes the element to the far left */
-
-    width: 40%;
-    height: 10%;
-    cursor: pointer;
-  }
-  
-  .spacer {
-    background-color: $center-border;
-    border-bottom: 1px solid $center-border-dark;
-
-    width: 10%;
-    cursor: pointer;
-  }
-
-  .far-right {
-    padding: 40px 60px;
-    border-bottom: 1px solid $center-border-dark;
-    background-color: $center-border;
-    margin-left: auto; /* Pushes the element to the far right */
-    width: 30%;
-    cursor: pointer; /* Change cursor to pointer on hover */
-
-    text-align: left;
-    font-size: xx-large;
-    // margin-bottom: 0px;
-  }
-  
-
-  .far-right:hover {
-    background-color: #0000001a;
-  }
-  .far-left:hover {
-    background-color: #0000001a;
-  }
-  .spacer:hover {
-    background-color: #0000001a;
-  }
 }
