@@ -1,65 +1,31 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-
-    // position: absolute;
-    // right: 0;
-    // left: 0;
-    // clear: both;
-
-    // margin-left: -30px;
-    // margin: auto;
-
-    // background-color:#213346;
-    // background-color: #ccc9dc;
     background-color: #333533;
     color: $light;
-    //   color:#f3f6f8;
-    //   color: #f1f1f1;
     width: 66%;
     height: 400%;
-    height: auto;
-    // max-width: 63%;
-    
+    height: auto;   
     padding: 25px 25px;
     border: 1px solid $center-border;
-
-    /* Additional height for the iframe */
-    // iframe {
-    //   height: calc(100vh + 200px); /* Set height to viewport height + 200 pixels */
-    // }
-
-
-  // #flex-item-books {
-  //   position: absolute;
-  //   margin-top: -40px;
-  // }
 
   #flex-item {
     margin: 25px, 25px 25px, 25px;
     // text-decoration: underline;
     height: auto;
-    width: 30%;
-    //   height: 200px;
-    // border: 5px solid pink; 
+    width: 100%;
+    // was 30%
+
     padding-top: 2px;
     padding-bottom: 2px;
-    // color: $dark;
-
-    // position: fixed;
-    // right: 0;
-
-    // Additional height for the iframe */
-  iframe {
-    height: 600%; /* Set height to viewport height + 200 pixels */
-  }
-
+    // Additional height for the iframe
+    iframe {
+      height: 600%; /* Set height to viewport height + 200 pixels */
+    }
   }
 
   h2,h3,h4 {
     color: $light;
-    // color: $hfontnav;
-    // background-color: $dark;
     background-color: $center-border;
 
     font: $hfont1;
@@ -72,50 +38,39 @@
   }
 
 
-  .galaxy-table {
-    width: 60%;
-    // border-collapse: collapse;
-    // border: 1px solid rgb(87, 88, 84);
-    // border-radius: 8px;
-    // overflow:hidden; /* Ensure content doesn't overflow rounded corners */
-    margin: auto;
-  }
 
-  .galaxy-table td {
-    padding: 8px;
-    border: 1px solid rgb(87, 88, 84);
+
+  .galaxy-cats {
+    width: 100%; /* Adjust width and padding as needed */
+    margin: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .far-left {
+    // padding: 2px;
+    border: 1px solid rgb(161, 204, 31);
     background-color: $center-border;
-    // display: inline-block;
+    margin-right: auto; /* Pushes the element to the far left */
+
+    width: 40%;
+    height: 10%;
+
+  }
+  
+  .spacer {
+    background-color: $center-border;
+    width: 10%;
   }
 
-  .galaxy-table tr {
-    border: 3px solid pink;
-    background-color: aqua;
-  }
+  .far-right {
+    padding: 40px 60px;
+    border: 1px solid rgb(161, 204, 31);
+    background-color: $center-border;
+    margin-left: auto; /* Pushes the element to the far right */
 
-  .galaxy-table .tiny-cell {
-    padding: 0px;
-    width: 0%;
-    border: hidden;
-    background-color: #333533;
-  } 
-
-  .left-column, .right-column {
-    width: 30%;
-    text-align: center;
-    font: bold italic 44px Arial, sans-serif;
-    border: 1px solid green;
-  }
-
-  .tiny-cell a,
-  .right-column a {
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
+    width: 40%;
+    // height: 10%;
   }
 }
-
-// // Additional height for the iframe */
-// iframe {
-//   height: 600%; /* Set height to viewport height + 200 pixels */
-// }

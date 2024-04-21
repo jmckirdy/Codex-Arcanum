@@ -273,12 +273,11 @@ strong {
   height: auto;
   padding: 25px 25px;
   border: 1px solid #272927;
-  /* Additional height for the iframe */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
   height: auto;
-  width: 30%;
+  width: 100%;
   padding-top: 2px;
   padding-bottom: 2px;
 }
@@ -296,36 +295,34 @@ strong {
   font: normal 16px Times, serif;
   font-size: large;
 }
-.flex-container .galaxy-table {
-  width: 60%;
-  margin: auto;
-}
-.flex-container .galaxy-table td {
-  padding: 8px;
-  border: 1px solid rgb(87, 88, 84);
-  background-color: #272927;
-}
-.flex-container .galaxy-table tr {
-  border: 3px solid pink;
-  background-color: aqua;
-}
-.flex-container .galaxy-table .tiny-cell {
-  padding: 0px;
-  width: 0%;
-  border: hidden;
-  background-color: #333533;
-}
-.flex-container .left-column, .flex-container .right-column {
-  width: 30%;
-  text-align: center;
-  font: bold italic 44px Arial, sans-serif;
-  border: 1px solid green;
-}
-.flex-container .tiny-cell a,
-.flex-container .right-column a {
-  display: inline-block;
+.flex-container .galaxy-cats {
   width: 100%;
-  padding: 10px;
+  /* Adjust width and padding as needed */
+  margin: 10px;
+  /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container .far-left {
+  border: 1px solid rgb(161, 204, 31);
+  background-color: #272927;
+  margin-right: auto;
+  /* Pushes the element to the far left */
+  width: 40%;
+  height: 10%;
+}
+.flex-container .spacer {
+  background-color: #272927;
+  width: 10%;
+}
+.flex-container .far-right {
+  padding: 40px 60px;
+  border: 1px solid rgb(161, 204, 31);
+  background-color: #272927;
+  margin-left: auto;
+  /* Pushes the element to the far right */
+  width: 40%;
 }
 
 .glossary-term {
