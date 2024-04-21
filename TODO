@@ -21,17 +21,13 @@
 
 ### <span style="color:#ff0000;background-color:black">Most High Priority</span>
 
-- 🟩 Fix Nav links by SELECT \* from books,codices,spells.
 - 🟩 fix: style h3 emojis with normal not italiacs
-
-<br>
-
 - 🟩 bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way. <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Instead;</b> link to curr. page via url in key="enchant.inc.php?key=value& ..."
 
 Notes:
 
 - each book/pdf upload should include a short desc. so that i can query/display only that short-desc from the codices TABLE, not the pdf_files TABLE. the pdf_data row of that table needs to convert from binary->substring... so it's much harder
-- Note02
+- Related Note: the ids for pdf_files, codices tables need to line up/be the same every upload/db entry. this will make the code queries be in synch.
 
 <hr style="width:40%;background-color:dodgerblue">
 <br>
@@ -79,3 +75,4 @@ smaller 10B files that were bad
 - ! fix: clicking PHP categ. should SELECT \* from PHP, etc.
 - 🟩 finish file upload button
 - 🟩 place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
+- 🟩 Fix Nav links by SELECT \* from books,codices,spells.

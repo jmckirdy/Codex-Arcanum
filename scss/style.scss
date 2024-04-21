@@ -94,9 +94,17 @@ h4{
   
 strong {
   background-color: #FFFF99;
-  // background-color: #2e64c9;
   color: $bluelink;
-  // color: $light;
+}
+
+.strong-codice {
+  background-color: yellowgreen;
+  color: $bluelink;
+}
+
+.strong-spell {
+  background-color: red;
+  color: $bluelink;
 }
   
 @import 'header';

@@ -202,6 +202,16 @@ strong {
   color: #006699;
 }
 
+.strong-codice {
+  background-color: yellowgreen;
+  color: #006699;
+}
+
+.strong-spell {
+  background-color: red;
+  color: #006699;
+}
+
 #header {
   margin-bottom: 44px;
   border-bottom: 1px solid #E2EAEF;

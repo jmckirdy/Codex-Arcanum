@@ -1,7 +1,9 @@
 <div class='flex-container'>
-   <h2>Codex Arcanum <i class="fa-solid fa-hat-wizard"></i></h2>
+   <h2>Categories</h2>
 
-   <p>The Latest Books, Codices, and Spells<br><br>
+   <p>Browse The Latest <strong>Books</strong>, 
+   <strong class="strong-codice">Codices</strong>, and 
+   <strong class='strong-spell'>Spells</strong><br><br>
    <div id="flex-item">
 
 <?php

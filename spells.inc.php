@@ -10,7 +10,7 @@ $con = login();
 
 echo "<div class='flex-container'>";
     echo "<div class='flex-item'>";
-    echo "The Newest <strong style='background-color:red'>Spells</strong>...<br><br>\n";
+    echo "Latest <strong style='background-color:red'>Spells</strong>...<br><br>\n";
 
     // $query = "SELECT codexid,title,poster,textfile,typeof FROM codices WHERE typeof = 'Book'";
     $query = "SELECT * FROM codices WHERE typeof = 'Spell' ORDER BY `codices`.`typeof` ASC;";  //ASC is not working for some reason
