@@ -84,21 +84,32 @@ echo "<img src='" . $gifs[$randomIndex] . "' alt='Random GIF' width='260px'>";
 ?>
 <hr>
 
+<h3>Tavern Gossip 🍺</h3>
+<br>
 <?php
-// code to loop over array below and echo out one line at random or in order.
+// code to loop over array below and echo out one line at random
+$tavernGossip = array(
+    '"Have you heard? That lusty Argonian maid from Riften hooked up with the DragonBorn.<br><br> I can scarecly believe that she\'s his type."',
+    '"Did you hear? They say the Dragonborn saved Whiterun from a dragon attack."',
+    '"Word is the Dragonborn took down Alduin, the World-Eater himself."',
+    '"They say the Dragonborn joined the Thieves Guild. Can you imagine?"',
+    '"You hear about the Dragonborn? They say he\'s a master of the bow."',
+    '"They say the Dragonborn has a house in every hold. Must be nice."',
+    '"The Dragonborn was seen pickpocketing in Riften market. Can you believe it?"',
+    '"You hear about the Dragonborn? They say he\'s the Thane of every hold."',
+    '"They say the Dragonborn can kill a dragon with a single shout."',
+    '"You hear? The Dragonborn became Arch-Mage of the College of Winterhold."',
+    '"They say the Dragonborn can summon a storm with a word."'
+);
+
+// Generate a random index
+$randomIndex = rand(0, count($tavernGossip) - 1);
+
+// Echo the selected string
+echo $tavernGossip[$randomIndex];
+
 
 ?>
-<h3>Tavern Gossip 🍺</h3>
-<p>"Have you heard? That lusty Argonian maid from Riften hooked up with the DragonBorn.<br><br> I can scarecly believe that she's his type."</p>
-<p>"Did you hear? They say the Dragonborn saved Whiterun from a dragon attack."</p> 
-<p>"Word is the Dragonborn took down Alduin, the World-Eater himself."</p>
-<p>"They say the Dragonborn joined the Thieves Guild. Can you imagine?"</p>
-<p>"You hear about the Dragonborn? They say he's a master of the bow."</p>
-<p>"They say the Dragonborn has a house in every hold. Must be nice."</p>
-<p>"The Dragonborn was seen pickpocketing in Riften market. Can you believe it?"</p>
-<p>"You hear about the Dragonborn? They say he's the Thane of every hold."</p>
-<p>"They say the Dragonborn can kill a dragon with a single shout."</p>
-<p>"You hear? The Dragonborn became Arch-Mage of the College of Winterhold."</p>
-<p>"They say the Dragonborn can summon a storm with a word."</p>
-<hr>
 <br>
+<br>
+<hr>
