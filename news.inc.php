@@ -37,7 +37,18 @@ $shows = array(
     array('name' => 'Mr. Robot', 'link' => 'https://www.imdb.com/title/tt4158110/'),
     array('name' => 'Rome', 'link' => 'https://www.imdb.com/title/tt0384766/'),
     array('name' => 'Wheel of Time', 'link' => 'https://www.imdb.com/title/tt7462410/'),
-    array('name' => 'Game of Thrones', 'link' => 'https://www.imdb.com/title/tt0944947/')
+    array('name' => 'Game of Thrones', 'link' => 'https://www.imdb.com/title/tt0944947/'),
+
+    array('name' => 'Breaking Bad', 'link' => 'https://www.imdb.com/title/tt0903747/'),
+    array('name' => 'The Office (US)', 'link' => 'https://www.imdb.com/title/tt0386676/'),
+    array('name' => 'Stranger Things', 'link' => 'https://www.imdb.com/title/tt4574334/'),
+    array('name' => 'Friends', 'link' => 'https://www.imdb.com/title/tt0108778/'),
+    array('name' => 'Sherlock', 'link' => 'https://www.imdb.com/title/tt1475582/'),
+    array('name' => 'The Mandalorian', 'link' => 'https://www.imdb.com/title/tt8111088/'),
+    array('name' => 'The Crown', 'link' => 'https://www.imdb.com/title/tt4786824/'),
+    array('name' => 'Stranger Things', 'link' => 'https://www.imdb.com/title/tt4574334/'),
+    array('name' => 'Peaky Blinders', 'link' => 'https://www.imdb.com/title/tt2442560/'),
+    array('name' => 'Narcos', 'link' => 'https://www.imdb.com/title/tt2707408/')
 );
 
 // Get a random index to display one show
@@ -73,8 +84,21 @@ echo "<img src='" . $gifs[$randomIndex] . "' alt='Random GIF' width='260px'>";
 ?>
 <hr>
 
+<?php
+// code to loop over array below and echo out one line at random or in order.
 
+?>
 <h3>Tavern Gossip 🍺</h3>
-<p>Have you heard? That lusty Argonian maid from Riften hooked up with the DragonBorn.<br><br> I can scarecly believe that she's his type!</p>
+<p>"Have you heard? That lusty Argonian maid from Riften hooked up with the DragonBorn.<br><br> I can scarecly believe that she's his type."</p>
+<p>"Did you hear? They say the Dragonborn saved Whiterun from a dragon attack."</p> 
+<p>"Word is the Dragonborn took down Alduin, the World-Eater himself."</p>
+<p>"They say the Dragonborn joined the Thieves Guild. Can you imagine?"</p>
+<p>"You hear about the Dragonborn? They say he's a master of the bow."</p>
+<p>"They say the Dragonborn has a house in every hold. Must be nice."</p>
+<p>"The Dragonborn was seen pickpocketing in Riften market. Can you believe it?"</p>
+<p>"You hear about the Dragonborn? They say he's the Thane of every hold."</p>
+<p>"They say the Dragonborn can kill a dragon with a single shout."</p>
+<p>"You hear? The Dragonborn became Arch-Mage of the College of Winterhold."</p>
+<p>"They say the Dragonborn can summon a storm with a word."</p>
 <hr>
 <br>
