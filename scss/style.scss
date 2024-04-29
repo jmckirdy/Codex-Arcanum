@@ -4,22 +4,18 @@
 @import 'sons_of_obsidian';  //comment this out if u want the original code formatting theme(lightMode) instead of S.O.O. (darkMode)
 
 body{
-  // font-family: Arial,sans-serif;
-  // font-size: 80%; 
   font: $fontstack;
   // font: $fontstack1;
   color: #333333; 
   line-height: 1.166;  
   margin: 0px; 
   padding: 0px; 
-
-//   // Additional height for the iframe */
-// iframe {
-//   height: 900%; /* Set height to viewport height + 200 pixels */
-// }
-
-
 }
+
+//////////////////  !STYLING BACKGROUND, DON'T KNOW WHERE TO PUT IT FOR THE CODE TO RECOGNIZE IT!
+// #flex-item-3 {
+//   background-color: #201f1fcb;
+// }
   
 //////////////////  !STYLING FOR IFRAME! Additional height for the iframe */
 .flex-container iframe {
