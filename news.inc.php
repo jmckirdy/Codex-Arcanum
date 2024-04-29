@@ -14,21 +14,21 @@
 
 
 <!-- ⬇️  ⬇️ -->
-<h3>Music Sample 🎵</h3>
+<h3>Music Sample &nbsp;<span style="font:normal larger serif;">🎵</span></h3>
 <!-- <br> -->
 <p style="font:normal 32px Times, serif; text-align:center;" onclick=playMusic() >▶️</p>
 <hr>
 
 
 What is a Codex? This is:
-<img alt="codex" src="assets/Codex_Aureus_Sankt_Emmeram.jpg" width="250px">
+<img alt="codex" src="assets/Codex_Aureus_Sankt_Emmeram.jpg" width="150px">
 <p>This is the Codex Aureus Sankt Emmeram, a 9th-century illuminated Gospel Book which takes its name from Saint Emmeram's Abbey, where it was for most of its history. <br><br>
 It is lavishly illuminated(text decorated with flourishes), and it's cover is encrusted with gems and relief figures in gold. <br><br>
 Precisely dated to 870, it is an important example of Carolingian art, as well as one of very few surviving treasure bindings of this date.</p>
 <hr>
 
 
-<h3>Weekly Show 📺</h3>
+<h3>Weekly Show &nbsp;<span style="font:normal larger serif;">📺</span></h3>
 <br>
 <?php
 // Multi-dimensional array with show names and corresponding IMDB links
@@ -62,7 +62,7 @@ echo $shows[$randomIndex]['name'] . "&nbsp; &#8212;> &nbsp;<a target=\"_blank\" 
 <hr>
 
 
-<h3>Weekly GIF 😂</h3>
+<h3>Weekly GIF &nbsp;<span style="font:normal larger serif;">😂</span></h3>
 <br>
 
 
@@ -84,7 +84,7 @@ echo "<img src='" . $gifs[$randomIndex] . "' alt='Random GIF' width='260px'>";
 ?>
 <hr>
 
-<h3>Tavern Gossip 🍺</h3>
+<h3>Tavern Gossip &nbsp;<span style="font:normal larger serif;">🍺</span></h3>
 <br>
 <?php
 // code to loop over array below and echo out one line at random
