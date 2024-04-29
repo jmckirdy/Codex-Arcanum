@@ -1,5 +1,7 @@
-<?php
+<div class='flex-container'>
+   <h2>Server Status</h2>
 
-echo "Here is the Server Status page."
+   <?php echo "Here is the Server Status page." ?>
 
-?>
+   <div id="flex-item"></div>
+</div>
