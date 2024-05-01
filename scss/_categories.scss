@@ -1,9 +1,11 @@
 .galaxy-cats {
     width: 100%; /* Adjust width and padding as needed */
-    margin: 10px; /* Adjust as needed */
+    margin: 5px; /* Adjust as needed */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: hidden;
+
 }
 
 .far-left {
@@ -15,14 +17,16 @@
     width: 40%;
     height: 10%;
     cursor: pointer;
+
 }
 
 .spacer {
     background-color: $center-border;
     border-bottom: 1px solid $center-border-dark;
 
-    width: 10%;
+    width: 20%;
     cursor: pointer;
+    // overflow: hidden;
 }
 
 .far-right {

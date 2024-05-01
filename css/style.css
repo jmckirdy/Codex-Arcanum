@@ -308,11 +308,12 @@ strong {
 .flex-container .galaxy-cats {
   width: 100%;
   /* Adjust width and padding as needed */
-  margin: 10px;
+  margin: 5px;
   /* Adjust as needed */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .flex-container .far-left {
   border-bottom: 1px solid #1c1c1f;
@@ -326,7 +327,7 @@ strong {
 .flex-container .spacer {
   background-color: #272927;
   border-bottom: 1px solid #1c1c1f;
-  width: 10%;
+  width: 20%;
   cursor: pointer;
 }
 .flex-container .far-right {
