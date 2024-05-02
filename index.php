@@ -8,9 +8,12 @@ session_start();
 <head>
      
     <!-------- NOTES TO DEVELOPER ---------
-    newcodex.inc.php is upload page, addcodex.inc.php is the logic
-    there are commented var_dumps for testing throughout app
-     -->
+    -newcodex.inc.php is upload page, addcodex.inc.php is the logic
+    
+    -fix the damn css
+
+    -there are commented var_dumps for testing throughout app
+     -------------------------------------->
 
     <script src="https://kit.fontawesome.com/6aa583ebf3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
@@ -19,18 +22,26 @@ session_start();
     <!-- <link rel="stylesheet" media="print" type="text/css" href="print.css" />  -->
 
     <style>
-    /* inline, internal styles are the last option for CSS as most is external in scss files. */
-    .flex-container .center-title-link {
-        font-size: larger;
-        /* color: bisque; want bisque but there many error handling links in center too */
-        color: $bluelink;
-    }
+        /* !this for .index.php in url */
+        /* this inline ; internal styles are the last option for CSS as most are external scss files. */
+        .flex-container .center-title-link {
+            font-size: larger;
+            /* color: bisque; want bisque but there many error handling links in center too */
+            color: $bluelink;
+        }
 
-    .flex-container .center-link {
-        font-size: normal;
-        /* color: bisque; */
-        color: $bluelink;
-    }
+        .flex-container .center-link {
+            font-size: normal;
+            /* color: bisque; */
+            color: $bluelink;
+        }
+
+        /* ///////////////  !STYLING BACKGROUND, DON'T KNOW WHERE TO PUT IT FOR THE CODE TO RECOGNIZE IT! */
+        /* #flex-item-3 {
+          background-color: #1c1c1f;
+        } */
+
+
     </style>
 
 
@@ -68,6 +79,7 @@ session_start();
                 // Testing for bugs TEMP
                 // echo var_dump($con);
 
+                // !THERE IS FLEX-ITEM CSS HERE
                 echo "<div id='flex-item-3'>";
                 if (!isset($_REQUEST['content']))
                     include("main.inc.php");

@@ -19,7 +19,7 @@ if (mysqli_num_rows($result) == 0)
 } 
 else
 {
-   echo "<div class=\"galaxy-cats\">";
+   echo "<div class=\"categories-main-container\">";
    while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
    {
 
@@ -30,16 +30,31 @@ else
       //TODO::---- will need to change the url when getting content of category.
       // look at register/validate any file with uploading the catid num
 
-      echo "<a class=\"far-left\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<a class=\"container-left\" href=\"index.php?content=showcategories&id=$catid\">";
       echo "<img src=\"showimage.php?catid=$catid\" width=\"auto\" height=\"150px\" alt=\"Image\"></a>";
 
-      echo "<a class=\"spacer\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<a class=\"container-middle\" href=\"index.php?content=showcategories&id=$catid\">";
       echo "<div></div></a>";
 
-      echo "<a class=\"far-right\" href=\"index.php?content=showcategories&id=$catid\">";
+      echo "<a class=\"container-right\" href=\"index.php?content=showcategories&id=$catid\">";
       echo "<div>$title</div></a>";     
-      echo "<br>\n";
+      echo "<br><br>\n";
    }
+
+
+   // Here! goes overflow
+   //    <div class="main-container"> // flex-direction: column;
+   //    <div class="fixed-container">Fixed Container</div> // height: 100px;
+   //    <div class="content-wrapper"> // min-height: 0; goes here
+   //      <div class="overflow-container">
+   //        <div class="overflow-content">
+   //          Overflow Content
+   //        </div>
+   //      </div>
+   //    </div>
+   //  </div>
+
+
    echo "</div>\n";
 }
 echo "<br>";

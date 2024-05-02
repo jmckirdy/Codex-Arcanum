@@ -312,7 +312,6 @@ strong {
   /* Adjust as needed */
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   overflow: hidden;
 }
 .flex-container .far-left {
@@ -341,6 +340,9 @@ strong {
   /* Change cursor to pointer on hover */
   text-align: left;
   font-size: xx-large;
+}
+.flex-container #flex-item-3 {
+  background-color: #1c1c1f;
 }
 .flex-container .far-right:hover {
   background-color: rgba(0, 0, 0, 0.1019607843);

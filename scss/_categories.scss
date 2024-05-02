@@ -1,14 +1,21 @@
-.galaxy-cats {
+// .g-wrapper {
+//     position: absolute;
+// }
+
+.categories-main-container {
     width: 100%; /* Adjust width and padding as needed */
     margin: 5px; /* Adjust as needed */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: nowrap;
     overflow: hidden;
+
+    // min-height:0;
+    // position: absolute;
 
 }
 
-.far-left {
+.container-left {
     // padding: 2px;
     border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
@@ -18,21 +25,29 @@
     height: 10%;
     cursor: pointer;
 
+    // min-width:0;
+
 }
 
-.spacer {
+.container-middle {
     background-color: $center-border;
     border-bottom: 1px solid $center-border-dark;
 
     width: 20%;
     cursor: pointer;
+
     // overflow: hidden;
+    // min-width:0;
+
 }
 
-.far-right {
+.container-right {
     padding: 40px 60px;
     border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
+    // background-color: pink;
+
+
     margin-left: auto; /* Pushes the element to the far right */
     width: 30%;
     cursor: pointer; /* Change cursor to pointer on hover */
@@ -40,8 +55,15 @@
     text-align: left;
     font-size: xx-large;
     // margin-bottom: 0px;
+
+    // min-width:0;
+
 }
 
+
+#flex-item-3 {
+    background-color: #1c1c1f;
+}
 
 .far-right:hover {
     background-color: #0000001a;
