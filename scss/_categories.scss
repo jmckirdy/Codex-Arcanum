@@ -1,62 +1,39 @@
 .categories-main-container {
     width: 100%;
     display: flex;
-    border: 1px solid $dark;
+    border: 1px solid $center-border-dark;
     background-color: $center-border;
-
     flex-direction: row;
     flex-wrap: wrap;
-    // overflow: hidden;
-
-    // min-height:0;
-    // position: absolute;
-
-
+    // border-bottom: 1px solid $center-border-dark;
 
 }
 
 .container-left {
-    border-bottom: 1px solid $center-border-dark;
-    background-color: $center-border;
+    // border-bottom: 1px solid $center-border-dark;
     width: 40%;
-    // cursor: pointer;
 }
 
 .container-middle {
-    border-bottom: 1px solid $center-border-dark;
-    background-color: $center-border;
+    // border-bottom: 1px solid $center-border-dark;
     width: 20%;
-    // cursor: pointer;
 }
 
 .container-right {
-    border-bottom: 1px solid $center-border-dark;
-    background-color: $center-border;
+    // border-bottom: 1px solid $center-border-dark;
     width: 30%;
-    // cursor: pointer;
     text-align: left;
     font-size: xx-large;
 }
 
-// .container-main {
-//     cursor: pointer;
+
+// .categories-main-container:hover {
+//     background-color: #cc2dcc;
 // }
+
 .categories-main-container:hover {
-    background-color: #cc2dcc;
+    background-color: $darkerlight2;
 }
-
-
-// .container-left:hover,
-// .container-middle:hover,
-// .container-right:hover {
-//     background-color: red;
-// }
-
-/* Apply hover effect to all containers within .categories-main-container */
-// .categories-main-container .container:hover {
-//     background-color: red;
-// }
-
 
 
 

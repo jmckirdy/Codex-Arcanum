@@ -283,7 +283,6 @@ strong {
   height: auto;
   padding: 25px 25px;
   border: 1px solid #272927;
-  /* Apply hover effect to all containers within .categories-main-container */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
@@ -309,30 +308,24 @@ strong {
 .flex-container .categories-main-container {
   width: 100%;
   display: flex;
-  border: 1px solid #213346;
+  border: 1px solid #1c1c1f;
   background-color: #272927;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .flex-container .container-left {
-  border-bottom: 1px solid #1c1c1f;
-  background-color: #272927;
   width: 40%;
 }
 .flex-container .container-middle {
-  border-bottom: 1px solid #1c1c1f;
-  background-color: #272927;
   width: 20%;
 }
 .flex-container .container-right {
-  border-bottom: 1px solid #1c1c1f;
-  background-color: #272927;
   width: 30%;
   text-align: left;
   font-size: xx-large;
 }
 .flex-container .categories-main-container:hover {
-  background-color: #cc2dcc;
+  background-color: rgba(164, 184, 197, 0.2588235294);
 }
 .flex-container #flex-item-3 {
   background-color: #1c1c1f;
