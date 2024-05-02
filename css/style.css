@@ -283,6 +283,7 @@ strong {
   height: auto;
   padding: 25px 25px;
   border: 1px solid #272927;
+  /* Apply hover effect to all containers within .categories-main-container */
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;
@@ -308,43 +309,33 @@ strong {
 .flex-container .categories-main-container {
   width: 100%;
   display: flex;
-  border: 12px dotted rgb(163, 71, 86);
-  background-color: rgb(32, 54, 54);
+  border: 1px solid #213346;
+  background-color: #272927;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 .flex-container .container-left {
   border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
   width: 40%;
-  cursor: pointer;
 }
 .flex-container .container-middle {
   border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
   width: 20%;
-  cursor: pointer;
 }
 .flex-container .container-right {
   border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
   width: 30%;
-  cursor: pointer;
   text-align: left;
   font-size: xx-large;
 }
+.flex-container .categories-main-container:hover {
+  background-color: #cc2dcc;
+}
 .flex-container #flex-item-3 {
   background-color: #1c1c1f;
-}
-.flex-container .far-right:hover {
-  background-color: rgba(0, 0, 0, 0.1019607843);
-}
-.flex-container .far-left:hover {
-  background-color: rgba(0, 0, 0, 0.1019607843);
-}
-.flex-container .spacer:hover {
-  background-color: rgba(0, 0, 0, 0.1019607843);
 }
 
 .glossary-term {

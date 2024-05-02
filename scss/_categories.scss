@@ -1,78 +1,16 @@
-// .g-wrapper {
-//     position: absolute;
-// }
-
-// .categories-main-container {
-//     width: 100%; /* Adjust width and padding as needed */
-//     margin: 5px; /* Adjust as needed */
-//     display: flex;
-//     flex-direction: row;
-//     // flex-wrap: nowrap;
-//     overflow: hidden;
-
-//     // min-height:0;
-//     // position: absolute;
-
-// }
-
-// .container-left {
-//     // padding: 2px;
-//     border-bottom: 1px solid $center-border-dark;
-//     background-color: $center-border;
-//     // margin-right: auto; /* Pushes the element to the far left */
-
-//     width: 40%;
-//     height: 10%;
-//     cursor: pointer;
-
-//     // min-width:0;
-
-// }
-
-// .container-middle {
-//     background-color: $center-border;
-//     border-bottom: 1px solid $center-border-dark;
-
-//     width: 20%;
-//     cursor: pointer;
-
-//     // overflow: hidden;
-//     // min-width:0;
-
-// }
-
-// .container-right {
-//     padding: 40px 60px;
-//     border-bottom: 1px solid $center-border-dark;
-//     background-color: $center-border;
-//     // background-color: pink;
-//     // margin-left: auto; /* Pushes the element to the far right */
-//     width: 30%;
-//     cursor: pointer; /* Change cursor to pointer on hover */
-//     text-align: left;
-//     font-size: xx-large;
-//     // margin-bottom: 0px;
-//     // min-width:0;
-// }
-
-
-
-
-
-
-
 .categories-main-container {
     width: 100%;
     display: flex;
-    border: 12px dotted rgb(163, 71, 86);
-    background-color: rgb(32, 54, 54);
+    border: 1px solid $dark;
+    background-color: $center-border;
 
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: hidden;
+    // overflow: hidden;
 
     // min-height:0;
     // position: absolute;
+
 
 
 }
@@ -81,29 +19,43 @@
     border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
     width: 40%;
-    cursor: pointer;
+    // cursor: pointer;
 }
 
 .container-middle {
     border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
     width: 20%;
-    cursor: pointer;
+    // cursor: pointer;
 }
 
 .container-right {
     border-bottom: 1px solid $center-border-dark;
     background-color: $center-border;
     width: 30%;
-    cursor: pointer;
+    // cursor: pointer;
     text-align: left;
     font-size: xx-large;
 }
 
+// .container-main {
+//     cursor: pointer;
+// }
+.categories-main-container:hover {
+    background-color: #cc2dcc;
+}
 
 
+// .container-left:hover,
+// .container-middle:hover,
+// .container-right:hover {
+//     background-color: red;
+// }
 
-
+/* Apply hover effect to all containers within .categories-main-container */
+// .categories-main-container .container:hover {
+//     background-color: red;
+// }
 
 
 
@@ -113,12 +65,5 @@
     background-color: #1c1c1f;
 }
 
-.far-right:hover {
-    background-color: #0000001a;
-}
-.far-left:hover {
-    background-color: #0000001a;
-}
-.spacer:hover {
-    background-color: #0000001a;
-}
+
+

@@ -1,3 +1,6 @@
+
+
+
 <div class='flex-container'>
    <h2>Categories</h2>
 
@@ -6,6 +9,7 @@
    <strong class='strong-spell'>Spells</strong><br><br>
    <div id="flex-item">
 
+   
 <?php
 include("library/login.php");
 $con = login();
@@ -19,7 +23,7 @@ if (mysqli_num_rows($result) == 0)
 } 
 else
 {
-   echo "<div class=\"categories-main-container\">";
+   // echo "<div class=\"categories-main-container\">";
    while($row=mysqli_fetch_array($result, MYSQLI_ASSOC))
    {
 
@@ -30,36 +34,60 @@ else
       //TODO::---- will need to change the url when getting content of category.
       // look at register/validate any file with uploading the catid num
 
-      echo "<a class=\"container-left\" href=\"index.php?content=showcategories&id=$catid\">";
-      echo "<img src=\"showimage.php?catid=$catid\" width=\"auto\" height=\"150px\" alt=\"Image\"></a>";
+      // echo "<div>";
+      // echo "<div class=\"container-row\">";
+      echo "<div class=\"categories-main-container\">";
 
-      echo "<a class=\"container-middle\" href=\"index.php?content=showcategories&id=$catid\">";
-      echo "<div></div></a>";
 
-      echo "<a class=\"container-right\" href=\"index.php?content=showcategories&id=$catid\">";
-      echo "<div>$title</div></a>";     
-      echo "<br><br>\n";
-      // echo "<table><tr><td>&nbsp;</td></tr></table>";
+         echo "<a class=\"container-left container-row\" href=\"index.php?content=showcategories&id=$catid\">";
+         echo "<img src=\"showimage.php?catid=$catid\" width=\"auto\" height=\"150px\" alt=\"Image\"></a>";
+
+         echo "<a class=\"container-middle container-row\" href=\"index.php?content=showcategories&id=$catid\">";
+         echo "<div class=\"container-row\" ></div></a>";
+
+         echo "<a class=\"container-right container-row\" href=\"index.php?content=showcategories&id=$catid\">";
+         echo "<div>$title</div></a>"; 
+         // echo "<br><br><br>\n"; 
+
+      echo "</div>";
+      // echo "</div>";
    }
-
-
-   // Here! goes overflow
-   //    <div class="main-container"> // flex-direction: column;
-   //    <div class="fixed-container">Fixed Container</div> // height: 100px;
-   //    <div class="content-wrapper"> // min-height: 0; goes here
-   //      <div class="overflow-container">
-   //        <div class="overflow-content">
-   //          Overflow Content
-   //        </div>
-   //      </div>
-   //    </div>
-   //  </div>
-
-
    echo "</div>\n";
+
 }
 echo "<br>";
 ?>
+<!-- <script>
+    // Get references to all three containers
+    var containerLeft = document.querySelector('.container-left');
+    var containerMiddle = document.querySelector('.container-middle');
+    var containerRight = document.querySelector('.container-right');
+
+    // Add event listeners to each container
+    containerLeft.addEventListener('mouseenter', changeColor);
+    containerLeft.addEventListener('mouseleave', revertColor);
+
+    containerMiddle.addEventListener('mouseenter', changeColor);
+    containerMiddle.addEventListener('mouseleave', revertColor);
+
+    containerRight.addEventListener('mouseenter', changeColor);
+    containerRight.addEventListener('mouseleave', revertColor);
+
+    // Function to change color of all three containers
+    function changeColor() {
+        containerLeft.style.backgroundColor = 'red';
+        containerMiddle.style.backgroundColor = 'red';
+        containerRight.style.backgroundColor = 'red';
+    }
+
+    // Function to revert color of all three containers
+    function revertColor() {
+        containerLeft.style.backgroundColor = '';
+        containerMiddle.style.backgroundColor = '';
+        containerRight.style.backgroundColor = '';
+    }
+</script> -->
+
 
 
 
