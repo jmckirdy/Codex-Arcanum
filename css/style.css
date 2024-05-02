@@ -305,39 +305,32 @@ strong {
   font: normal 16px Times, serif;
   font-size: large;
 }
-.flex-container .galaxy-cats {
+.flex-container .categories-main-container {
   width: 100%;
-  /* Adjust width and padding as needed */
-  margin: 5px;
-  /* Adjust as needed */
   display: flex;
+  border: 12px dotted rgb(163, 71, 86);
+  background-color: rgb(32, 54, 54);
   flex-direction: row;
+  flex-wrap: wrap;
   overflow: hidden;
 }
-.flex-container .far-left {
+.flex-container .container-left {
   border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
-  margin-right: auto;
-  /* Pushes the element to the far left */
   width: 40%;
-  height: 10%;
   cursor: pointer;
 }
-.flex-container .spacer {
-  background-color: #272927;
+.flex-container .container-middle {
   border-bottom: 1px solid #1c1c1f;
+  background-color: #272927;
   width: 20%;
   cursor: pointer;
 }
-.flex-container .far-right {
-  padding: 40px 60px;
+.flex-container .container-right {
   border-bottom: 1px solid #1c1c1f;
   background-color: #272927;
-  margin-left: auto;
-  /* Pushes the element to the far right */
   width: 30%;
   cursor: pointer;
-  /* Change cursor to pointer on hover */
   text-align: left;
   font-size: xx-large;
 }

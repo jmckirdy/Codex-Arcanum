@@ -39,6 +39,7 @@ else
       echo "<a class=\"container-right\" href=\"index.php?content=showcategories&id=$catid\">";
       echo "<div>$title</div></a>";     
       echo "<br><br>\n";
+      // echo "<table><tr><td>&nbsp;</td></tr></table>";
    }
 
 
