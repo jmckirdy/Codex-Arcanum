@@ -21,8 +21,14 @@
 
 ### <span style="color:#ff0000;background-color:black">Most High Priority</span>
 
-- 🟩 fix: style h3 emojis with normal not italiacs
 - 🟩 bug: when enchanment is cast just go straight to showing the page with the new enchantment, NOT the current way. <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>Instead;</b> link to curr. page via url in key="enchant.inc.php?key=value& ..."
+
+### New May+
+
+- 🟩 !feat: find 'stickers' (8-10) to include in enchantments
+- 🟩 !feat: get 'stickers' working in enchanments/whervever else.
+
+- 🟩 !bug: codexid in pfd_data table needs to be NOT NULL, when uploaded it is default null. MAKE SURE THAT codexid works as a FK.
 
 Notes:
 
@@ -76,3 +82,4 @@ smaller 10B files that were bad
 - 🟩 finish file upload button
 - 🟩 place data INSIDE OF gpt's golden ration table, (for ur categs/galaxies)
 - 🟩 Fix Nav links by SELECT \* from books,codices,spells.
+- 🟩 fix: style h3 emojis with normal not italiacs
