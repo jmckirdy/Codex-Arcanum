@@ -30,6 +30,8 @@
 - 🟩 !bug: codexid in pfd_data table needs to be NOT NULL, when uploaded it is default null. MAKE SURE THAT codexid works as a FK.
 - 🟩 !bug: test out upload sizes more, 3M + may be too much for chrome, chrome downloads the file to comp, but firefox loads it in browser. many pdfs are too big, Hamlet is the biggest working so far at 2.2M. full books are 100-200M!
 
+- 🟨 improvement: CSS - h2,3 bigger. biege color, new imgs, with dark bg. even h1, subtitle beige
+
 Notes:
 
 - each book/pdf upload should include a short desc. so that i can query/display only that short-desc from the codices TABLE, not the pdf_files TABLE. the pdf_data row of that table needs to convert from binary->substring... so it's much harder
