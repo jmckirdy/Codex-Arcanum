@@ -19,12 +19,16 @@
 <p style="font:normal 32px Times, serif; text-align:center;" onclick=playMusic() >▶️</p>
 <hr>
 
-
-What is a Codex? This is:
+<h3>Newstream&nbsp;<span style="font:normal larger serif;">🙌</span></h3>
+<br>
 <img alt="codex" src="assets/Codex_Aureus_Sankt_Emmeram.jpg" width="150px">
-<p>This is the Codex Aureus Sankt Emmeram, a 9th-century illuminated Gospel Book which takes its name from Saint Emmeram's Abbey, where it was for most of its history. <br><br>
-It is lavishly illuminated(text decorated with flourishes), and it's cover is encrusted with gems and relief figures in gold. <br><br>
-Precisely dated to 870, it is an important example of Carolingian art, as well as one of very few surviving treasure bindings of this date.</p>
+<p>This is the Codex Aureus Sankt Emmeram, a 9th-century illuminated Gospel Book which ... <a href="#">[Read More]</a> 
+</p>
+
+
+<!-- takes its name from Saint Emmeram's Abbey, where it was for most of its history. <br><br>
+It is lavishly illuminated(text decorated with flourishes), {this is an example of news stories ongoing, maybe external news stream related to your interests} and it's cover is encrusted with gems and relief figures in gold. <br><br>
+Precisely dated to 870, it is an important example of Carolingian art, as well as one of very few surviving treasure bindings of this date.</p> -->
 <hr>
 
 
