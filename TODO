@@ -29,6 +29,8 @@
 
 - 🟩 feat: get 'stickers' working in enchanments/whervever else.
 
+- 🟩❗ BUG: "categories" drop-down, in the upload form, do not match up to what categories (catids) are in phpMyAdmin, AFTER fixing other related bugs, edit approp php/html page in form.
+
 - 🟩❗ bug: codexid in pfd_data table needs to be NOT NULL, when uploaded it is default null. MAKE SURE THAT codexid works as a FK.
 
 - 🟩❗ bug: test out upload sizes more, 3M + may be too much for chrome, chrome downloads the file to comp, but firefox loads it in browser. many pdfs are too big, Hamlet is the biggest working so far at 2.2M. full books are 100-200M!

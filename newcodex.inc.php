@@ -11,13 +11,13 @@
         </select><br><br>
 
         Category:&nbsp;<select name="catid">
-            <option value="2" name="2">Linux</option>
             <option value="1" name="1">PHP</option>
-            <option value="7" name="7">SQL</option>
+            <option value="2" name="2">Linux</option>
             <option value="3" name="3">JavaScript</option>
             <option value="4" name="4">Python</option>
             <option value="5" name="5">C/C++</option>
             <option value="6" name="6">DSA</option>
+            <option value="7" name="7">SQL</option>
             <option value="8" name="8">Web Design</option>
             <option value="9" name="9">Other</option>
         </select><br><br>

@@ -4,9 +4,7 @@ $con = login();
 
 $id = $_GET['id'];
 // $id = 28; // Assuming you're fetching a specific PDF by its ID
-// $id = 8; 
-// kept interesting ids! !didn't like .epubs, it downloaded and would not open.
-// $id = 20; 
+// IT IS BY ITS codexid IN URL, like it shows in the query below
 
 
 // SELECTING PDF WINDOW
