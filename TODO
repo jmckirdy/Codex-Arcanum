@@ -26,8 +26,11 @@
 ### New May+
 
 - 🟩 !feat: find 'stickers' (8-10) to include in enchantments
+
 - 🟩 !feat: get 'stickers' working in enchanments/whervever else.
+
 - 🟩 !bug: codexid in pfd_data table needs to be NOT NULL, when uploaded it is default null. MAKE SURE THAT codexid works as a FK.
+
 - 🟩 !bug: test out upload sizes more, 3M + may be too much for chrome, chrome downloads the file to comp, but firefox loads it in browser. many pdfs are too big, Hamlet is the biggest working so far at 2.2M. full books are 100-200M!
 
 - 🟨 improvement: CSS - h2,3 bigger. biege color, new imgs, with dark bg. even h1, subtitle beige
@@ -35,7 +38,14 @@
 Notes:
 
 - each book/pdf upload should include a short desc. so that i can query/display only that short-desc from the codices TABLE, not the pdf_files TABLE. the pdf_data row of that table needs to convert from binary->substring... so it's much harder
-- Related Note: the ids for pdf_files, codices tables need to line up/be the same every upload/db entry. this will make the code queries be in synch.
+
+- Related Note: the ids for pdf_files, codices tables need to line up/be the same every upload/db entry. this will make the code queries be in synch. -- in other words; `codices` table data, needs to line up with `pdf_files` table data. (so upon registration page upload form)
+
+- [newer]
+  ForgeLife(ha!) -- Remaining Problems:
+  [ OLD, but check anyways ] - Profile and Achievements links need pages. - Stats at bottom are hard coded. they need to be dynamic. - session cookies and save game need to work. - building need to build in the right places related to layout. - integrate the other art and folder structures I already have. - [info]
+  Large Text Filings, Textual Data:
+  https://www.sedarplus.ca/csa-party/viewInstance/view.html?id=0c11f8b7998bcd96496c7310efd83205a81912f6089db3ce&_timestamp=9602971342440073
 
 <hr style="width:40%;background-color:dodgerblue">
 <br>

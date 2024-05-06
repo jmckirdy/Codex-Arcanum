@@ -1,0 +1,49 @@
+// CSS --- Another green
+bcf8ec
+celeste
+
+Achievements == Heroes
+
+## events == "events"
+
+\*Bad events
+
+-You discovered how to brew a strong mead with the spruce needles from the trees of the forest,
+but upon over-enbibing you pass out while outside of your shelter and your leg is bitten by a badger.
+
+move mutant event 10% closer.
+
+slim pickens, you get 15% more random()
+
+---
+
+\*\*GOOD EVENTS
+
+-productive year: , you get 15% more random()
+
+-something happens
+move mutant event 10% farther.
+
+-you gain more $ per s based on
+
+\*\*---
+NEUTRAL EVENTS
+
+---
+
+\*\*RESOURCE EVENTS
+
+FYI--->
+changed defaults php.ini
+
+default:
+post_max_size 8M
+
+upload_max_filesize 2M
+
+now: 220M, 200M
+
+changed defaults my.ini
+max_packet_size: 20M
+was 1M
+
