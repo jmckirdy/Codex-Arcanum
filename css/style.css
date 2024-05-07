@@ -138,6 +138,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+body #content {
+  background-color: dodgerblue;
+  height: 100%;
+}
 
 .flex-container iframe {
   height: 700px;

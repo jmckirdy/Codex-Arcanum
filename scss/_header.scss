@@ -1,11 +1,13 @@
 #header{
     margin-bottom: 44px;
     border-bottom: 1px solid $darkerlight;
+    // height: 320px;
     height: 160px;
     width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-position: top right;
+    // background-color: black; NONONO
 }
 
 .title {
@@ -17,6 +19,9 @@
 }
   
 .hero-image {
+    // background-color: black; NONON
+
+
     // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.712)), url("../156.jpg");
     background-image: url("../assets/156.jpg");
     height: 100%;

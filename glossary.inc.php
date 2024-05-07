@@ -2,8 +2,8 @@
     <h3>Intro</h3>
     <div class="flex-item">
         <div class="glossary-text">
-            <p><em>Codex Arcanum</em> is a tool for uploading and reviewing programming notes and scripts, with a magic theme. It also has the ability to upload books.<br><br>
-            Because the topic of programming is so vast, the developer (aka: Mad Wizard) has determined to focus (mostly) on programming for the web. Here's what that may include:</p>
+            <p><em>Codex Arcanum</em> is a tool for uploading/reviewing programming notes, scripts, and even full books(pdfs); with a magic theme.<br><br>
+            Preliminary data may include:</p>
         </div>
 
         <pre class="prettyprint"><code>[PHP, JavaScript, Python, C++, C, Linux, Bash, DSA, Web Design, Redirects, Hosting, Infastructure, DevOps, ...]</code></pre>

@@ -10,6 +10,12 @@ body{
   line-height: 1.166;  
   margin: 0px; 
   padding: 0px; 
+
+  // .body-container  --start here may06.
+  #content {
+    background-color: dodgerblue;
+    height: 100%;
+  }
 }
 
 //////////////////  !STYLING BACKGROUND, DON'T KNOW WHERE TO PUT IT FOR THE CODE TO RECOGNIZE IT!
