@@ -19,11 +19,21 @@
 <p style="font:normal 32px Times, serif; text-align:center;" onclick=playMusic() >▶️</p>
 <hr>
 
-<h3>Newstream&nbsp;<span style="font:normal larger serif;">🙌</span></h3>
+<h3>Content Creators&nbsp;<span style="font:normal larger serif;">🎬</span></h3>
+<div>(that don't suck)</div>
 <br>
-<img alt="codex" src="assets/Codex_Aureus_Sankt_Emmeram.jpg" width="150px">
-<p>This is the Codex Aureus Sankt Emmeram, a 9th-century illuminated Gospel Book which ... <a href="#">[Read More]</a> 
-</p>
+The lastest code snippets from:
+<ul>
+    <li>Professor Steve</li>
+    <li>Dave's Garage</li>
+    <li>An Indian Guy</li>
+    <li>Links to the code</li>
+</ul>
+<!-- <img alt="codex" src="assets/Codex_Aureus_Sankt_Emmeram.jpg" width="150px"> -->
+<!-- <p>This is the Codex Aureus Sankt Emmeram, a 9th-century illuminated Gospel Book which ...</p>  -->
+    
+<a href="#">[Read More]</a> 
+
 
 
 <!-- takes its name from Saint Emmeram's Abbey, where it was for most of its history. <br><br>
