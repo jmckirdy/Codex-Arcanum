@@ -137,9 +137,10 @@ body {
   line-height: 1.166;
   margin: 0px;
   padding: 0px;
+  background-color: silver;
 }
 body #content {
-  background-color: dodgerblue;
+  background-color: silver;
   height: 100%;
 }
 
@@ -246,14 +247,14 @@ strong {
 #nav {
   padding: 5px;
   border: 1px solid #E2EAEF;
-  background-color: #f3f6f8;
+  background-color: rgba(164, 184, 197, 0.2588235294);
   float: left;
   clear: both;
   width: 15%;
   min-height: 275px;
 }
 #nav h3 {
-  color: bisque;
+  color: #f3f6f8;
   background-color: #006699;
   text-align: center;
 }
@@ -262,8 +263,8 @@ strong {
   position: absolute;
   padding: 5px;
   border: 1px solid #E2EAEF;
-  border-left: 2px solid #E2EAEF;
-  background-color: #f3f6f8;
+  border-left: 1px solid #E2EAEF;
+  background-color: rgba(164, 184, 197, 0.2588235294);
   float: right;
   clear: both;
   right: 0px;
@@ -272,7 +273,7 @@ strong {
   min-height: 275px;
 }
 #news h3 {
-  color: bisque;
+  color: #f3f6f8;
   background-color: #006699;
   text-align: center;
 }
@@ -286,7 +287,8 @@ strong {
   height: 400%;
   height: auto;
   padding: 25px 25px;
-  border: 1px solid #272927;
+  border: 1px solid #333533;
+  border-top: 1px solid #E2EAEF;
 }
 .flex-container #flex-item {
   margin: 25px, 25px 25px, 25px;

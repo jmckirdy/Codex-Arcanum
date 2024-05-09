@@ -10,11 +10,14 @@ body{
   line-height: 1.166;  
   margin: 0px; 
   padding: 0px; 
+  background-color: silver;
 
   // .body-container  --start here may06.
   #content {
-    background-color: dodgerblue;
+    background-color: silver;
+    // background-color: $darkerlight;
     height: 100%;
+
   }
 }
 
@@ -29,23 +32,23 @@ body{
   color: pink;
 }
 
-a{
-  color: #006699;
+a {
+  color: $bluelink;
   text-decoration: none;
 }
   
 a:link{
-  color: #006699;
+  color: $bluelink;
   text-decoration: none;
 }
   
 a:visited{
-  color: #006699;
+  color: $bluelink;
   text-decoration: none;
 }
   
 a:hover{
-  color: #006699;
+  color: $bluelink;
   text-decoration: underline;
 }
 
@@ -87,7 +90,7 @@ h4{
   font-family: Arial,sans-serif;
   font-size: 100%;
 
-  color: #334d55;
+  color: $h4color;
   // color: $light;
 
   margin: 0px;

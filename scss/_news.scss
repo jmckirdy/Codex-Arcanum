@@ -3,9 +3,9 @@
     // position: fixed;
     padding: 5px; 
     border: 1px solid #E2EAEF; 
-    border-left: 2px solid #E2EAEF;
+    border-left: 1px solid #E2EAEF;
     // border-left: 1px solid #E2EAEF;  
-    background-color: $light;  
+    background-color: $darkerlight2;  
     float: right;  
     clear: both;
     right: 0px;
@@ -15,7 +15,8 @@
     min-height: 275px;
 
     h3 {
-        color: $hfontnav;
+        // color: $hfontnav;
+        color: $light;
         background-color: $bluelink;
         text-align: center;
     }

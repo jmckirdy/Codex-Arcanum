@@ -5,14 +5,15 @@
     // border-right: 1px solid #E2EAEF;
     // background-color: silver;
     // background-color: ivory;
-    background-color: $light;
+    background-color: $darkerlight2;
     float: left;
     clear: both;
     width: 15%;
     min-height: 275px;
 
     h3 {
-        color: $hfontnav;
+        // color: $hfontnav;
+        color: $light;
         background-color: $bluelink;
         text-align: center;
     }

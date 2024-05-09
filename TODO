@@ -49,8 +49,6 @@ keep the data from `codices` , prob rename ea. file to represent the data u are 
 
   ***
 
-- 🟨 improvement: CSS - h2,3 bigger. biege color, new imgs, with dark bg. even h1, subtitle beige
-
 Notes:
 
 - each book/pdf upload should include a short desc. so that i can query/display only that short-desc from the codices TABLE, not the pdf_files TABLE. the pdf_data row of that table needs to convert from binary->substring... so it's much harder

@@ -71,7 +71,7 @@
 
 <form action="index.php" method="get">
 
-<label><font color="#663300" size="-1">search codex database:</font> </label>
+<label><font color="#334d55" size="-1">search codex database:</font> </label>
 
 <input name="searchFor" type="text" size="14" />
 
